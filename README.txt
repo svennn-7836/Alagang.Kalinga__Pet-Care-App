@@ -11,7 +11,7 @@ PROJECT TITLE:
    Alaga't Kalinga_(Pet Care App)
 
 PROJECT DESCRIPTION:
-   Alagang Kalinga is the ultimate app designed to specifically aid proud pet parents or seasoned pet enthusiasts in their pet's needs. To    promote the healthy and happy well-being of your pets.
+   Alagang Kalinga is the ultimate app designed to specifically aid proud pet parents or seasoned pet enthusiasts in their pet's needs. To promote the healthy and happy well-being of your pets.
 
 GITHUB REPO:
    https://github.com/svennn-7836/AlagatKalinga__Pet-Care-App
