@@ -55,8 +55,8 @@
         android:id="@+id/alarmImage"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="48dp"
-        android:layout_marginBottom="116dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="120dp"
         android:clickable="true"
         android:contentDescription="Alarm"
         android:onClick="onAlarmClick"
@@ -75,6 +75,20 @@
         android:contentDescription="symptoms"
         android:onClick="onsymptomsClick"
         android:src="@drawable/symptoms"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/menuiconImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="356dp"
+        android:layout_marginBottom="636dp"
+        android:clickable="true"
+        android:contentDescription="menuicon"
+        android:onClick="onmrnuivonClick"
+        android:src="@drawable/menu_icon"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         tools:ignore="ContentDescription" />
