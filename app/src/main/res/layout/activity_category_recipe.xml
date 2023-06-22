@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/lightpurtple">
+
+    <ImageView
+        android:id="@+id/selectcategoryImage"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_weight="5"
+        android:layout_width="420dp"
+        android:layout_height="76dp"
+        android:contentDescription="category"
+        android:src="@drawable/select_category_for_food_recipes"
+        tools:ignore="ContentDescription"
+        tools:layout_editor_absoluteX="-3dp"
+        tools:layout_editor_absoluteY="41dp" />
+
+
+
+    <ImageView
+        android:id="@+id/CatsImage"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_weight="5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:contentDescription="Cats"
+        android:onClick="onCatsClick"
+        android:src="@drawable/cats"
+        tools:ignore="ContentDescription"
+        tools:layout_editor_absoluteX="142dp"
+        tools:layout_editor_absoluteY="422dp" />
+    <ImageView
+        android:id="@+id/dogsImage"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_weight="5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:contentDescription="Dogs"
+        android:onClick="ondogsClick"
+        android:src="@drawable/dogs"
+        tools:ignore="ContentDescription"
+        tools:layout_editor_absoluteX="-2dp"
+        tools:layout_editor_absoluteY="177dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
