@@ -16,6 +16,11 @@ class MenuActivity : AppCompatActivity() {
             val intent = Intent(this, RecipeCategoryActivity::class.java)
             startActivity(intent)
         }
+        val dosImage: ImageView = findViewById(R.id.doDontImage)
+        dosImage.setOnClickListener {
+            val intent = Intent(this, DosDontsActivity::class.java)
+            startActivity(intent)
+        }
 
         // Add your activity setup code here
     }
