@@ -9,47 +9,44 @@
 
     <ImageView
         android:id="@+id/selectcategoryImage"
+        android:layout_width="420dp"
+        android:layout_height="76dp"
+        android:layout_marginTop="32dp"
+        android:contentDescription="category"
+        android:src="@drawable/select_category_for_food_recipes"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_weight="5"
-        android:layout_width="420dp"
-        android:layout_height="76dp"
-        android:contentDescription="category"
-        android:src="@drawable/select_category_for_food_recipes"
-        tools:ignore="ContentDescription"
-        tools:layout_editor_absoluteX="-3dp"
-        tools:layout_editor_absoluteY="41dp" />
-
-
+        tools:ignore="ContentDescription" />
 
     <ImageView
         android:id="@+id/CatsImage"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_weight="5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="136dp"
+        android:layout_marginTop="356dp"
         android:clickable="true"
         android:contentDescription="Cats"
         android:onClick="onCatsClick"
         android:src="@drawable/cats"
-        tools:ignore="ContentDescription"
-        tools:layout_editor_absoluteX="142dp"
-        tools:layout_editor_absoluteY="422dp" />
-    <ImageView
-        android:id="@+id/dogsImage"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_weight="5"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/dogsImage"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="108dp"
         android:clickable="true"
         android:contentDescription="Dogs"
         android:onClick="ondogsClick"
         android:src="@drawable/dogs"
-        tools:ignore="ContentDescription"
-        tools:layout_editor_absoluteX="-2dp"
-        tools:layout_editor_absoluteY="177dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_weight="5"
+        tools:ignore="ContentDescription" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
