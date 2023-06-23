@@ -17,13 +17,11 @@
         android:id="@+id/continueButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_centerInParent="true"
+        android:background="@color/darkpurple"
         android:text="Click Here to Continue"
         android:textColor="@color/white"
-        android:background="@color/darkpurple"
-        tools:layout_editor_absoluteX="110dp"
-        tools:layout_editor_absoluteY="667dp" />
+        tools:layout_editor_absoluteX="120dp"
+        tools:layout_editor_absoluteY="647dp" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
