@@ -1,10 +1,12 @@
 # Alaga'tKalinga__Pet-Care-App
 
 COMPANY NAME:
-   C7 (ClaudSven)
+   Purr Elise
 
 BOARD MEMBERS:
    Claudio Abuloc III
+   Daryl Micko Sevilla
+   Hans Christian Orozco
    Sven Orville Mallari
 
 PROJECT TITLE:
