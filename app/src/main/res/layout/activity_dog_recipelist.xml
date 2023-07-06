@@ -86,7 +86,20 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    
+    <ImageView
+        android:id="@+id/BackRed0"
+        android:layout_width="88dp"
+        android:layout_height="56dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="648dp"
+        android:clickable="true"
+        android:contentDescription="BackRed0"
+        android:onClick="onBackRed0Click"
+        android:src="@drawable/backred"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_weight="5"
+        tools:ignore="ContentDescription" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
