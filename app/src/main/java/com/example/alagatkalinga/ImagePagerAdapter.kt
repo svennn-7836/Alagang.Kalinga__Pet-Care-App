@@ -23,4 +23,17 @@ class ImagePagerAdapter(private val context: Context) : PagerAdapter() {
         R.drawable.dogfoodpic9,
         R.drawable.dogfoodpic10,
     )
+    private val titles = arrayOf(
+        "Grain-Free Dog Food",
+        "Peanut Butter and Pumpkin",
+        "Glutten Free Dog Food",
+        "Pup-Cakes",
+        "Veggies and Turkey Mix",
+        "Sweet Potato Dog Treats",
+        "Dog Food with Meat and Vegetables",
+        "Homemade Dog Food with Beef",
+        "Doggy Meatloaf with Vegetables",
+        "Lucky and Rippy's Favorite Dog Food"
+    )
     
+
