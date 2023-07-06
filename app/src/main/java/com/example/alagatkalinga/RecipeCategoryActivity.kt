@@ -1,5 +1,5 @@
 package com.example.alagatkalinga
-
+import android.content.Intent
 import android.os.Bundle
 import android.widget.ImageView
 import androidx.appcompat.app.AppCompatActivity
@@ -13,6 +13,11 @@ class RecipeCategoryActivity : AppCompatActivity() {
         backButton.setOnClickListener {
             onBackPressed()
         }
-        // Add your activity setup code here
+
+        val dogsImage: ImageView = findViewById(R.id.dogsImage)
+        dogsImage.setOnClickListener {
+            val intent = Intent(this, RecipeListActivity::class.java)
+            startActivity(intent)
+        }
     }
 }
