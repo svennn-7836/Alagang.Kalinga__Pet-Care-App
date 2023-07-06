@@ -35,5 +35,27 @@ class ImagePagerAdapter(private val context: Context) : PagerAdapter() {
         "Doggy Meatloaf with Vegetables",
         "Lucky and Rippy's Favorite Dog Food"
     )
+    override fun getCount(): Int {
+        return images.size
+    }
+
+    override fun isViewFromObject(view: View, `object`: Any): Boolean {
+        return view == `object`
+    }
+
+    override fun instantiateItem(container: ViewGroup, position: Int): Any {
+        val imageView = ImageView(context)
+        imageView.setImageResource(images[position])
+        container.addView(imageView)
+
+        // Set click listener on the image view
+        imageView.setOnClickListener {
+            val selectedTitle = titles[position]
+            if (selectedTitle == "Grain-Free Dog Food") {
+                Log.d("ImagePagerAdapter", "Image Clicked: Grain-Free Dog Food")
+                val intent = Intent(context, DogRecipe1Activity::class.java)
+                context.startActivity(intent)
+            }
+        }
     
 
