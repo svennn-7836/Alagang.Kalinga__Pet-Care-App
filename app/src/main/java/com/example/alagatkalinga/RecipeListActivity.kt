@@ -1,7 +1,7 @@
 package com.example.alagatkalinga
-
-import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
+import android.os.Bundle
+
 
 class RecipeListActivity : AppCompatActivity() {
 
@@ -9,4 +9,4 @@ class RecipeListActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_dog_recipelist)
     }
-}
+}    

@@ -39,6 +39,10 @@
             android:name=".RecipeListActivity"
             android:exported="true">
         </activity>
+        <activity
+            android:name=".DogRecipe1Activity"
+            android:exported="true">
+        </activity>
     </application>
 
 </manifest>
