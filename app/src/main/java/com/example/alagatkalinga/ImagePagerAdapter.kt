@@ -59,6 +59,10 @@ class ImagePagerAdapter(private val context: Context) : PagerAdapter() {
                 Log.d("ImagePagerAdapter", "Image Clicked: Peanut Butter and Pumpkin")
                 val intent = Intent(context, DogRecipe2Activity::class.java)
                 context.startActivity(intent)
+            } else if (selectedTitle == "Glutten Free Dog Food") {
+            Log.d("ImagePagerAdapter", "Image Clicked: Glutten Free Dog Food")
+            val intent = Intent(context, DogRecipe3Activity::class.java)
+            context.startActivity(intent)
             }
         }
 
@@ -73,6 +77,10 @@ class ImagePagerAdapter(private val context: Context) : PagerAdapter() {
             } else if (selectedTitle == "Peanut Butter and Pumpkin") {
                 Log.d("ImagePagerAdapter", "Title Clicked: Peanut Butter and Pumpkin")
                 val intent = Intent(context, DogRecipe2Activity::class.java)
+                context.startActivity(intent)
+            }else if (selectedTitle == "Glutten Free Dog Food") {
+                Log.d("ImagePagerAdapter", "Title Clicked: Glutten Free Dog Food")
+                val intent = Intent(context, DogRecipe3Activity::class.java)
                 context.startActivity(intent)
             }
         }
