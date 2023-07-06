@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/red">
+
+    <ImageView
+        android:id="@+id/RecipeText"
+        android:layout_width="409dp"
+        android:layout_height="74dp"
+        android:layout_marginTop="28dp"
+        android:contentDescription="RecipeText"
+        android:src="@drawable/recipe_text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/RecipeBoxRed"
+        android:layout_width="410dp"
+        android:layout_height="375dp"
+        android:contentDescription="RecipeBoxR"
+        android:src="@drawable/rectangle_8"
+        app:layout_constraintTop_toBottomOf="@id/RecipeText"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/RecipeTitle" />
+    <ImageView
+        android:id="@+id/RecipeBoxLRed"
+        android:layout_width="384dp"
+        android:layout_height="365dp"
+        android:contentDescription="RecipeBoxLR"
+        android:src="@drawable/rectangle_16"
+        app:layout_constraintBottom_toTopOf="@id/RecipeTitle"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/RecipeText" />
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/pager"
+        android:layout_width="325dp"
+        android:layout_height="276dp"
+        android:layout_margin="16dp"
+        app:layout_constraintBottom_toBottomOf="@id/RecipeBoxRed"
+        app:layout_constraintEnd_toEndOf="@id/RecipeBoxRed"
+        app:layout_constraintStart_toStartOf="@id/RecipeBoxRed"
+        app:layout_constraintTop_toTopOf="@id/RecipeBoxRed" />
+
+
+    <ImageView
+        android:id="@+id/RecipeTitle"
+        android:layout_width="402dp"
+        android:layout_height="131dp"
+        android:layout_marginBottom="80dp"
+        android:contentDescription="RecipeText"
+        android:src="@drawable/rectangle_17"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.487"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/RecipeBoxRed"/>
+
+    <TextView
+        android:id="@+id/recipeTitleText"
+        android:layout_width="364dp"
+        android:layout_height="67dp"
+        android:gravity="center"
+        android:textColor="#FFF"
+        android:textSize="25dp"
+        app:layout_constraintBottom_toBottomOf="@+id/RecipeTitle"
+        app:layout_constraintEnd_toEndOf="@+id/RecipeTitle"
+        app:layout_constraintStart_toStartOf="@+id/RecipeTitle"
+        app:layout_constraintTop_toTopOf="@+id/RecipeTitle" />
+
+    <TextView
+        android:id="@+id/pageIndicatorText"
+        android:layout_width="138dp"
+        android:layout_height="15dp"
+        android:layout_marginTop="532dp"
+        android:textColor="#FFF"
+        android:gravity="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
