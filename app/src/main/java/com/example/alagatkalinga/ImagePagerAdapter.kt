@@ -57,5 +57,30 @@ class ImagePagerAdapter(private val context: Context) : PagerAdapter() {
                 context.startActivity(intent)
             }
         }
-    
+        // Set click listener on the title view
+        val recipeTitleText = container.rootView.findViewById<TextView>(R.id.recipeTitleText)
+        recipeTitleText.setOnClickListener {
+            val selectedTitle = titles[position]
+            if (selectedTitle == "Grain-Free Dog Food") {
+                Log.d("ImagePagerAdapter", "Title Clicked: Grain-Free Dog Food")
+                val intent = Intent(context, DogRecipe1Activity::class.java)
+                context.startActivity(intent)
+            }
+        }
+
+        return imageView
+    }
+
+
+
+
+    override fun destroyItem(container: ViewGroup, position: Int, `object`: Any) {
+        container.removeView(`object` as View)
+    }
+
+    override fun getPageTitle(position: Int): CharSequence? {
+        return titles[position]
+    }
+}
+
 
