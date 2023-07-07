@@ -18,7 +18,8 @@
             android:layout_width="411dp"
             android:layout_height="match_parent"
             android:layout_marginTop="172dp"
-            android:src="@drawable/dogrecipe3"/>
+            android:src="@drawable/dogrecipe3"
+            app:layout_constraintStart_toStartOf="parent"/>
         <ImageView
             android:id="@+id/BackRed3"
             android:layout_width="88dp"
