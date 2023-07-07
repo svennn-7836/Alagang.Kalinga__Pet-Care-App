@@ -59,6 +59,26 @@
             android:name=".DogRecipe5Activity"
             android:exported="true">
         </activity>
+        <activity
+            android:name=".DogRecipe6Activity"
+            android:exported="true">
+        </activity>
+        <activity
+            android:name=".DogRecipe7Activity"
+            android:exported="true">
+        </activity>
+        <activity
+            android:name=".DogRecipe8Activity"
+            android:exported="true">
+        </activity>
+        <activity
+            android:name=".DogRecipe9Activity"
+            android:exported="true">
+        </activity>
+        <activity
+            android:name=".DogRecipe10Activity"
+            android:exported="true">
+        </activity>
     </application>
 
 </manifest>
