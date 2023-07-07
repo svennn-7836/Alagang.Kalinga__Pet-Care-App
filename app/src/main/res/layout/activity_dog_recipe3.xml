@@ -12,26 +12,12 @@
         android:layout_height="match_parent"
         android:background="@color/red">
 
-        <ImageView
-            android:id="@+id/contentImage"
-            android:layout_width="411dp"
-            android:layout_height="284dp"
-            android:src="@drawable/dogfoodpic3"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="1.0"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
 
         <ImageView
             android:id="@+id/contentbox"
-            android:layout_width="400dp"
-            android:layout_height="1597dp"
-            android:layout_marginTop="172dp"
-            android:src="@drawable/recipe1content"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.454"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/dogrecipe3"/>
         <ImageView
             android:id="@+id/BackRed3"
             android:layout_width="88dp"
