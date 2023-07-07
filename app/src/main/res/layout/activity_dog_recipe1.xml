@@ -12,7 +12,6 @@
         android:layout_height="match_parent"
         android:background="@color/red">
 
-
         <ImageView
             android:id="@+id/contentbox"
             android:layout_width="411dp"
