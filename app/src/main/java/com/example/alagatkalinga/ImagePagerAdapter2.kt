@@ -12,28 +12,28 @@ import androidx.viewpager.widget.PagerAdapter
 class ImagePagerAdapter2(private val context: Context) : PagerAdapter() {
 
     private val images = arrayOf(
-        R.drawable.dogfoodpic1,
-        R.drawable.dogfoodpic2,
-        R.drawable.dogfoodpic3,
-        R.drawable.dogfoodpic4,
-        R.drawable.dogfoodpic5,
-        R.drawable.dogfoodpic6,
-        R.drawable.dogfoodpic7,
-        R.drawable.dogfoodpic8,
-        R.drawable.dogfoodpic9,
-        R.drawable.dogfoodpic10,
+        R.drawable.catrecipe1,
+        R.drawable.catrecipe2,
+        R.drawable.catrecipe3,
+        R.drawable.catrecipe4,
+        R.drawable.catrecipe5,
+        R.drawable.catrecipe6,
+        R.drawable.catrecipe7,
+        R.drawable.catrecipe8,
+        R.drawable.catrecipe9,
+        R.drawable.catrecipe10,
     )
     private val titles = arrayOf(
-        "Grain-Free Dog Food",
-        "Peanut Butter and Pumpkin",
-        "Glutten Free Dog Food",
-        "Pup-Cakes",
-        "Veggies and Turkey Mix",
-        "Sweet Potato Dog Treats",
-        "Dog Food with Meat and Vegetables",
-        "Homemade Dog Food with Beef",
-        "Doggy Meatloaf with Vegetables",
-        "Lucky and Rippy's Favorite Dog Food"
+        "Chicken and Tuna Dinner",
+        "Chicken Dinner",
+        "Deluxe Fish Balls",
+        "Chicken, Spinach & Quinoa",
+        "Chicken and Salmon",
+        "Grain-Free Meatloaf",
+        "Chicken and Greens",
+        "Mackerel Recipe",
+        "Kitty Breakfast 1",
+        "Kitty Breakfast 2",
     )
     override fun getCount(): Int {
         return images.size

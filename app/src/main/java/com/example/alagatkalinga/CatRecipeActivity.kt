@@ -26,7 +26,7 @@ class CatRecipeActivity : AppCompatActivity() {
         recipeTitleText = findViewById(R.id.CatrecipeTitleText)
         pageIndicatorText = findViewById(R.id.CatpageIndicatorText)
 
-        val adapter = ImagePagerAdapter(this)
+        val adapter = ImagePagerAdapter2(this)
         viewPager.adapter = adapter
 
         recipeTitleText.text = adapter.getPageTitle(0)
