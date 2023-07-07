@@ -77,7 +77,31 @@ class ImagePagerAdapter(private val context: Context) : PagerAdapter() {
                     val intent = Intent(context, DogRecipe5Activity::class.java)
                     context.startActivity(intent)
                 }
-                // Add more cases for other titles and corresponding activities if needed
+                "Sweet Potato Dog Treats" -> {
+                    Log.d("ImagePagerAdapter", "Image Clicked: Sweet Potato Dog Treats")
+                    val intent = Intent(context, DogRecipe6Activity::class.java)
+                    context.startActivity(intent)
+                }
+                "Dog Food with Meat and Vegetables" -> {
+                    Log.d("ImagePagerAdapter", "Image Clicked: Dog Food with Meat and Vegetables")
+                    val intent = Intent(context, DogRecipe7Activity::class.java)
+                    context.startActivity(intent)
+                }
+                "Homemade Dog Food with Beef" -> {
+                    Log.d("ImagePagerAdapter", "Image Clicked: Homemade Dog Food with Beef")
+                    val intent = Intent(context, DogRecipe8Activity::class.java)
+                    context.startActivity(intent)
+                }
+                "Doggy Meatloaf with Vegetables" -> {
+                    Log.d("ImagePagerAdapter", "Image Clicked: Doggy Meatloaf with Vegetables")
+                    val intent = Intent(context, DogRecipe9Activity::class.java)
+                    context.startActivity(intent)
+                }
+                "Lucky and Rippy's Favorite Dog Food" -> {
+                    Log.d("ImagePagerAdapter", "Image Clicked: Lucky and Rippy's Favorite Dog Food")
+                    val intent = Intent(context, DogRecipe10Activity::class.java)
+                    context.startActivity(intent)
+                }  // Add more cases for other titles and corresponding activities if needed
             }
         }
 
@@ -109,6 +133,31 @@ class ImagePagerAdapter(private val context: Context) : PagerAdapter() {
                 "Veggies and Turkey Mix" -> {
                     Log.d("ImagePagerAdapter", "Title Clicked: Veggies and Turkey Mix")
                     val intent = Intent(context, DogRecipe5Activity::class.java)
+                    context.startActivity(intent)
+                }
+                "Sweet Potato Dog Treats" -> {
+                    Log.d("ImagePagerAdapter", "Title Clicked: Sweet Potato Dog Treats")
+                    val intent = Intent(context, DogRecipe6Activity::class.java)
+                    context.startActivity(intent)
+                }
+                "Dog Food with Meat and Vegetables" -> {
+                    Log.d("ImagePagerAdapter", "Title Clicked: Dog Food with Meat and Vegetables")
+                    val intent = Intent(context, DogRecipe7Activity::class.java)
+                    context.startActivity(intent)
+                }
+                "Homemade Dog Food with Beef" -> {
+                    Log.d("ImagePagerAdapter", "Title Clicked: Homemade Dog Food with Beef")
+                    val intent = Intent(context, DogRecipe8Activity::class.java)
+                    context.startActivity(intent)
+                }
+                "Doggy Meatloaf with Vegetables" -> {
+                    Log.d("ImagePagerAdapter", "Title Clicked: Doggy Meatloaf with Vegetables")
+                    val intent = Intent(context, DogRecipe9Activity::class.java)
+                    context.startActivity(intent)
+                }
+                "Lucky and Rippy's Favorite Dog Food" -> {
+                    Log.d("ImagePagerAdapter", "Title Clicked: Lucky and Rippy's Favorite Dog Food")
+                    val intent = Intent(context, DogRecipe10Activity::class.java)
                     context.startActivity(intent)
                 }
                 // Add more cases for other titles and corresponding activities if needed
