@@ -12,16 +12,16 @@ import androidx.viewpager.widget.PagerAdapter
 class ImagePagerAdapter2(private val context: Context) : PagerAdapter() {
 
     private val images = arrayOf(
-        R.drawable.catrecipe1,
-        R.drawable.catrecipe2,
-        R.drawable.catrecipe3,
-        R.drawable.catrecipe4,
-        R.drawable.catrecipe5,
-        R.drawable.catrecipe6,
-        R.drawable.catrecipe7,
-        R.drawable.catrecipe8,
-        R.drawable.catrecipe9,
-        R.drawable.catrecipe10,
+        R.drawable.catfoodpic1,
+        R.drawable.catfoodpic2,
+        R.drawable.catfoodpic3,
+        R.drawable.catfoodpic4,
+        R.drawable.catfoodpic5,
+        R.drawable.catfoodpic6,
+        R.drawable.catfoodpic7,
+        R.drawable.catfoodpic8,
+        R.drawable.catfoodpic9,
+        R.drawable.catfoodpic10
     )
     private val titles = arrayOf(
         "Chicken and Tuna Dinner",
@@ -33,7 +33,7 @@ class ImagePagerAdapter2(private val context: Context) : PagerAdapter() {
         "Chicken and Greens",
         "Mackerel Recipe",
         "Kitty Breakfast 1",
-        "Kitty Breakfast 2",
+        "Kitty Breakfast 2"
     )
     override fun getCount(): Int {
         return images.size
@@ -52,63 +52,112 @@ class ImagePagerAdapter2(private val context: Context) : PagerAdapter() {
         imageView.setOnClickListener {
             val selectedTitle = titles[position]
             when (selectedTitle) {
-                "Grain-Free Dog Food" -> {
-                    Log.d("ImagePagerAdapter", "Image Clicked: Grain-Free Dog Food")
-                    val intent = Intent(context, DogRecipe1Activity::class.java)
+                "Chicken and Tuna Dinner" -> {
+                    Log.d("ImagePagerAdapter2", "Image Clicked: Chicken and Tuna Dinner")
+                    val intent = Intent(context, CatRecipe1Activity::class.java)
                     context.startActivity(intent)
                 }
-                "Peanut Butter and Pumpkin" -> {
-                    Log.d("ImagePagerAdapter", "Image Clicked: Peanut Butter and Pumpkin")
-                    val intent = Intent(context, DogRecipe2Activity::class.java)
+                "Chicken Dinner" -> {
+                    Log.d("ImagePagerAdapter2", "Image Clicked: Chicken Dinner")
+                    val intent = Intent(context, CatRecipe2Activity::class.java)
                     context.startActivity(intent)
                 }
-                "Glutten Free Dog Food" -> {
-                    Log.d("ImagePagerAdapter", "Image Clicked: Glutten Free Dog Food")
-                    val intent = Intent(context, DogRecipe3Activity::class.java)
+                "Deluxe Fish Balls" -> {
+                    Log.d("ImagePagerAdapter2", "Image Clicked: Deluxe Fish Balls")
+                    val intent = Intent(context, CatRecipe3Activity::class.java)
                     context.startActivity(intent)
                 }
-                "Pup-Cakes" -> {
-                    Log.d("ImagePagerAdapter", "Image Clicked: Pup-Cakes")
-                    val intent = Intent(context, DogRecipe4Activity::class.java)
+                "Chicken, Spinach & Quinoa" -> {
+                    Log.d("ImagePagerAdapter2", "Image Clicked: Chicken, Spinach & Quinoa")
+                    val intent = Intent(context, CatRecipe4Activitiy::class.java)
                     context.startActivity(intent)
                 }
-                "Veggies and Turkey Mix" -> {
-                    Log.d("ImagePagerAdapter", "Image Clicked: Veggies and Turkey Mix")
-                    val intent = Intent(context, DogRecipe5Activity::class.java)
+                "Chicken and Salmon" -> {
+                    Log.d("ImagePagerAdapter2", "Image Clicked: Chicken and Salmon")
+                    val intent = Intent(context, CatRecipe5Activity::class.java)
                     context.startActivity(intent)
                 }
-                // Add more cases for other titles and corresponding activities if needed
+                "Grain-Free Meatloaf" -> {
+                    Log.d("ImagePagerAdapter2", "Image Clicked: Grain-Free Meatloaf")
+                    val intent = Intent(context, CatRecipe6Activity::class.java)
+                    context.startActivity(intent)
+                }
+                "Chicken and Greens" -> {
+                    Log.d("ImagePagerAdapter2", "Image Clicked: Chicken and Greens")
+                    val intent = Intent(context, CatRecipe7Activity::class.java)
+                    context.startActivity(intent)
+                }
+                "Mackerel Recipe" -> {
+                    Log.d("ImagePagerAdapter2", "Image Clicked: Mackerel Recipe")
+                    val intent = Intent(context, CatRecipe8Activity::class.java)
+                    context.startActivity(intent)
+                }
+                "Kitty Breakfast 1" -> {
+                    Log.d("ImagePagerAdapter2", "Image Clicked: Kitty Breakfast 1")
+                    val intent = Intent(context, CatRecipe9Activity::class.java)
+                    context.startActivity(intent)
+                }
+                "Kitty Breakfast 2" -> {
+                    Log.d("ImagePagerAdapter2", "Image Clicked: Kitty Breakfast 2")
+                    val intent = Intent(context, CatRecipe10Activity::class.java)
+                    context.startActivity(intent)
+                }// Add more cases for other titles and corresponding activities if needed
             }
         }
 
         // Set click listener on the title view
-        val recipeTitleText = container.rootView.findViewById<TextView>(R.id.recipeTitleText)
+        val recipeTitleText = container.rootView.findViewById<TextView>(R.id.CatrecipeTitleText)
         recipeTitleText.setOnClickListener {
             val selectedTitle = titles[position]
             when (selectedTitle) {
-                "Grain-Free Dog Food" -> {
-                    Log.d("ImagePagerAdapter", "Title Clicked: Grain-Free Dog Food")
-                    val intent = Intent(context, DogRecipe1Activity::class.java)
+                "Chicken and Tuna Dinner" -> {
+                    Log.d("ImagePagerAdapter2", "Title Clicked: Chicken and Tuna Dinner")
+                    val intent = Intent(context, CatRecipe1Activity::class.java)
                     context.startActivity(intent)
                 }
-                "Peanut Butter and Pumpkin" -> {
-                    Log.d("ImagePagerAdapter", "Title Clicked: Peanut Butter and Pumpkin")
-                    val intent = Intent(context, DogRecipe2Activity::class.java)
+                "Chicken Dinner" -> {
+                    Log.d("ImagePagerAdapter2", "Title Clicked: Chicken Dinner")
+                    val intent = Intent(context, CatRecipe2Activity::class.java)
                     context.startActivity(intent)
                 }
-                "Glutten Free Dog Food" -> {
-                    Log.d("ImagePagerAdapter", "Title Clicked: Glutten Free Dog Food")
-                    val intent = Intent(context, DogRecipe3Activity::class.java)
+                "Deluxe Fish Balls" -> {
+                    Log.d("ImagePagerAdapter2", "Title Clicked: Deluxe Fish Balls")
+                    val intent = Intent(context, CatRecipe3Activity::class.java)
                     context.startActivity(intent)
                 }
-                "Pup-Cakes" -> {
-                    Log.d("ImagePagerAdapter", "Title Clicked: Pup-Cakes")
-                    val intent = Intent(context, DogRecipe4Activity::class.java)
+                "Chicken, Spinach & Quinoa" -> {
+                    Log.d("ImagePagerAdapter2", "Title Clicked: Chicken, Spinach & Quinoa")
+                    val intent = Intent(context, CatRecipe4Activitiy::class.java)
                     context.startActivity(intent)
                 }
-                "Veggies and Turkey Mix" -> {
-                    Log.d("ImagePagerAdapter", "Title Clicked: Veggies and Turkey Mix")
-                    val intent = Intent(context, DogRecipe5Activity::class.java)
+                "Chicken and Salmon" -> {
+                    Log.d("ImagePagerAdapter2", "Title Clicked: Chicken and Salmon")
+                    val intent = Intent(context, CatRecipe5Activity::class.java)
+                    context.startActivity(intent)
+                }
+                "Grain-Free Meatloaf" -> {
+                    Log.d("ImagePagerAdapter2", "Title Clicked: Grain-Free Meatloaf")
+                    val intent = Intent(context, CatRecipe6Activity::class.java)
+                    context.startActivity(intent)
+                }
+                "Chicken and Greens" -> {
+                    Log.d("ImagePagerAdapter2", "Title Clicked: Chicken and Greens")
+                    val intent = Intent(context, CatRecipe7Activity::class.java)
+                    context.startActivity(intent)
+                }
+                "Mackerel Recipe" -> {
+                    Log.d("ImagePagerAdapter2", "Title Clicked: Mackerel Recipe")
+                    val intent = Intent(context, CatRecipe8Activity::class.java)
+                    context.startActivity(intent)
+                }
+                "Kitty Breakfast 1" -> {
+                    Log.d("ImagePagerAdapter2", "Title Clicked: Kitty Breakfast 1")
+                    val intent = Intent(context, CatRecipe9Activity::class.java)
+                    context.startActivity(intent)
+                }
+                "Kitty Breakfast 2" -> {
+                    Log.d("ImagePagerAdapter2", "Title Clicked: Kitty Breakfast 2")
+                    val intent = Intent(context, CatRecipe10Activity::class.java)
                     context.startActivity(intent)
                 }
                 // Add more cases for other titles and corresponding activities if needed

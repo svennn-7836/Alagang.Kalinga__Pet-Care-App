@@ -57,4 +57,3 @@ class CatRecipeActivity : AppCompatActivity() {
         pageIndicatorText.text = pageIndicator
     }
 }
-

@@ -21,7 +21,7 @@ class RecipeCategoryActivity : AppCompatActivity() {
         }
         val CatsImage: ImageView = findViewById(R.id.CatsImage)
         CatsImage.setOnClickListener {
-            val intent = Intent(this, RecipeListActivity::class.java)
+            val intent = Intent(this, CatRecipeActivity::class.java)
             startActivity(intent)
         }
     }
