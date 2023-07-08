@@ -1,0 +1,10 @@
+<resources>
+    <dimen name="dos2_margin_top">496dp</dimen>
+    <dimen name="dos2_initial_margin_top">220dp</dimen>
+
+    <dimen name="dos3_margin_top">540dp</dimen>
+    <dimen name="dos3_initial_margin_top">264dp</dimen>
+    <dimen name="dos4_margin_top">584dp</dimen>
+    <dimen name="dos4_initial_margin_top">308dp</dimen>
+    <!-- Other dimension resources -->
+</resources>
