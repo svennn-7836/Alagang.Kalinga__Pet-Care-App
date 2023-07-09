@@ -26,6 +26,9 @@ class DosDontsActivity : AppCompatActivity() {
     private lateinit var dosw6: ImageView
     private lateinit var dosc6: ImageView
     private lateinit var dos7: ImageView
+    private lateinit var dosw7: ImageView
+    private lateinit var dosc7: ImageView
+    private lateinit var dos8: ImageView
 
     private var dos2InitialMarginTop = 0
     private var dos3InitialMarginTop = 0
@@ -33,6 +36,7 @@ class DosDontsActivity : AppCompatActivity() {
     private var dos5InitialMarginTop = 0
     private var dos6InitialMarginTop = 0
     private var dos7InitialMarginTop = 0
+    private var dos8InitialMarginTop = 0
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -58,6 +62,9 @@ class DosDontsActivity : AppCompatActivity() {
         dosw6 = findViewById(R.id.dosw6)
         dosc6= findViewById(R.id.dosc6)
         dos7 = findViewById(R.id.dos7)
+        dosw7 = findViewById(R.id.dosw7)
+        dosc7= findViewById(R.id.dosc7)
+        dos8 = findViewById(R.id.dos8)
 
         // Store the initial top margin values
         val dos2LayoutParams = dos2.layoutParams as ConstraintLayout.LayoutParams
@@ -77,6 +84,9 @@ class DosDontsActivity : AppCompatActivity() {
 
         val dos7LayoutParams = dos7.layoutParams as ConstraintLayout.LayoutParams
         dos7InitialMarginTop = dos7LayoutParams.topMargin
+
+        val dos8LayoutParams = dos8.layoutParams as ConstraintLayout.LayoutParams
+        dos8InitialMarginTop = dos8LayoutParams.topMargin
 
         // Set initial visibility
         dos1.visibility = View.VISIBLE
@@ -98,6 +108,9 @@ class DosDontsActivity : AppCompatActivity() {
         dosw6.visibility = View.INVISIBLE
         dosc6.visibility = View.INVISIBLE
         dos7.visibility = View.VISIBLE
+        dosw7.visibility = View.INVISIBLE
+        dosc7.visibility = View.INVISIBLE
+        dos8.visibility = View.VISIBLE
     }
 
     // Click event handler for dos1
@@ -121,6 +134,9 @@ class DosDontsActivity : AppCompatActivity() {
         dosw6.visibility = View.INVISIBLE
         dosc6.visibility = View.INVISIBLE
         dos7.visibility = View.VISIBLE
+        dosw7.visibility = View.INVISIBLE
+        dosc7.visibility = View.INVISIBLE
+        dos8.visibility = View.VISIBLE
 
         // Set the top margin of dos2 to be 10dp below dosc1
         val dos2LayoutParams = dos2.layoutParams as ConstraintLayout.LayoutParams
@@ -157,6 +173,12 @@ class DosDontsActivity : AppCompatActivity() {
         dos7LayoutParams.topToBottom = R.id.dos6
         dos7LayoutParams.topMargin = dpToPx(10)
         dos7.layoutParams = dos7LayoutParams
+
+        // Set the top margin of dos8 to be 10dp below dos7
+        val dos8LayoutParams = dos8.layoutParams as ConstraintLayout.LayoutParams
+        dos8LayoutParams.topToBottom = R.id.dos7
+        dos8LayoutParams.topMargin = dpToPx(10)
+        dos8.layoutParams = dos8LayoutParams
     }
 
     // Click event handler for dosw1
@@ -180,6 +202,9 @@ class DosDontsActivity : AppCompatActivity() {
         dosw6.visibility = View.INVISIBLE
         dosc6.visibility = View.INVISIBLE
         dos7.visibility = View.VISIBLE
+        dosw7.visibility = View.INVISIBLE
+        dosc7.visibility = View.INVISIBLE
+        dos8.visibility = View.VISIBLE
 
         // Reset the top margin of dos2 to its initial value
         val dos2LayoutParams = dos2.layoutParams as ConstraintLayout.LayoutParams
@@ -204,6 +229,22 @@ class DosDontsActivity : AppCompatActivity() {
         dos5LayoutParams.topToBottom = R.id.dos4
         dos5LayoutParams.topMargin = dos5InitialMarginTop
         dos5.layoutParams = dos5LayoutParams
+
+        // Reset the top margin of dos6 to its initial value
+        val dos6LayoutParams = dos6.layoutParams as ConstraintLayout.LayoutParams
+        dos6LayoutParams.topToBottom = R.id.dos5
+        dos6LayoutParams.topMargin = dos6InitialMarginTop
+        dos6.layoutParams = dos6LayoutParams
+
+        val dos7LayoutParams = dos7.layoutParams as ConstraintLayout.LayoutParams
+        dos7LayoutParams.topToBottom = R.id.dos7
+        dos7LayoutParams.topMargin = dos7InitialMarginTop
+        dos7.layoutParams = dos7LayoutParams
+
+        val dos8LayoutParams = dos8.layoutParams as ConstraintLayout.LayoutParams
+        dos8LayoutParams.topToBottom = R.id.dos7
+        dos8LayoutParams.topMargin = dos8InitialMarginTop
+        dos8.layoutParams = dos8LayoutParams
     }
 
     // Click event handler for dos2
@@ -227,6 +268,9 @@ class DosDontsActivity : AppCompatActivity() {
         dosw6.visibility = View.INVISIBLE
         dosc6.visibility = View.INVISIBLE
         dos7.visibility = View.VISIBLE
+        dosw7.visibility = View.INVISIBLE
+        dosc7.visibility = View.INVISIBLE
+        dos8.visibility = View.VISIBLE
 
         // Set the top margin of dos3 to be 44dp below dosc3
         val dos3LayoutParams = dos3.layoutParams as ConstraintLayout.LayoutParams
@@ -257,6 +301,12 @@ class DosDontsActivity : AppCompatActivity() {
         dos7LayoutParams.topToBottom = R.id.dos6
         dos7LayoutParams.topMargin = dpToPx(10)
         dos7.layoutParams = dos7LayoutParams
+
+        // Set the top margin of dos8 to be 10dp below dos7
+        val dos8LayoutParams = dos8.layoutParams as ConstraintLayout.LayoutParams
+        dos8LayoutParams.topToBottom = R.id.dos7
+        dos8LayoutParams.topMargin = dpToPx(10)
+        dos8.layoutParams = dos8LayoutParams
     }
 
     // Click event handler for dosw2
@@ -281,6 +331,9 @@ class DosDontsActivity : AppCompatActivity() {
         dosw6.visibility = View.INVISIBLE
         dosc6.visibility = View.INVISIBLE
         dos7.visibility = View.VISIBLE
+        dosw7.visibility = View.INVISIBLE
+        dosc7.visibility = View.INVISIBLE
+        dos8.visibility = View.VISIBLE
 
         // Reset the top margin of dos2 to its initial value
         val dos2LayoutParams = dos2.layoutParams as ConstraintLayout.LayoutParams
@@ -317,6 +370,12 @@ class DosDontsActivity : AppCompatActivity() {
         dos7LayoutParams.topToBottom = R.id.dos6
         dos7LayoutParams.topMargin = dos7InitialMarginTop
         dos7.layoutParams = dos7LayoutParams
+
+        // Reset the top margin of dos8 to its initial value
+        val dos8LayoutParams = dos8.layoutParams as ConstraintLayout.LayoutParams
+        dos8LayoutParams.topToBottom = R.id.dos7
+        dos8LayoutParams.topMargin = dos8InitialMarginTop
+        dos8.layoutParams = dos8LayoutParams
     }
     // Click event handler for dos3
     fun onDos3Click(view: View) {
@@ -339,6 +398,9 @@ class DosDontsActivity : AppCompatActivity() {
         dosw6.visibility = View.INVISIBLE
         dosc6.visibility = View.INVISIBLE
         dos7.visibility = View.VISIBLE
+        dosw7.visibility = View.INVISIBLE
+        dosc7.visibility = View.INVISIBLE
+        dos8.visibility = View.VISIBLE
 
         // Set the top margin of dos4 to be 44dp below dosc3
         val dos4LayoutParams = dos4.layoutParams as ConstraintLayout.LayoutParams
@@ -363,6 +425,12 @@ class DosDontsActivity : AppCompatActivity() {
         dos7LayoutParams.topToBottom = R.id.dos6
         dos7LayoutParams.topMargin = dpToPx(10)
         dos7.layoutParams = dos7LayoutParams
+
+        // Set the top margin of dos8 to be 10dp below dos7
+        val dos8LayoutParams = dos8.layoutParams as ConstraintLayout.LayoutParams
+        dos8LayoutParams.topToBottom = R.id.dos7
+        dos8LayoutParams.topMargin = dpToPx(10)
+        dos8.layoutParams = dos8LayoutParams
     }
 
     // Click event handler for dosw3
@@ -386,6 +454,9 @@ class DosDontsActivity : AppCompatActivity() {
         dosw6.visibility = View.INVISIBLE
         dosc6.visibility = View.INVISIBLE
         dos7.visibility = View.VISIBLE
+        dosw7.visibility = View.INVISIBLE
+        dosc7.visibility = View.INVISIBLE
+        dos8.visibility = View.VISIBLE
 
         // Reset the top margin of dos2 to its initial value
         val dos2LayoutParams = dos2.layoutParams as ConstraintLayout.LayoutParams
@@ -423,6 +494,11 @@ class DosDontsActivity : AppCompatActivity() {
         dos7LayoutParams.topMargin = dos7InitialMarginTop
         dos7.layoutParams = dos7LayoutParams
 
+        // Reset the top margin of dos8 to its initial value
+        val dos8LayoutParams = dos8.layoutParams as ConstraintLayout.LayoutParams
+        dos8LayoutParams.topToBottom = R.id.dos7
+        dos8LayoutParams.topMargin = dos8InitialMarginTop
+        dos8.layoutParams = dos8LayoutParams
 
     }
     // Click event handler for dos4
@@ -446,6 +522,9 @@ class DosDontsActivity : AppCompatActivity() {
         dosw6.visibility = View.INVISIBLE
         dosc6.visibility = View.INVISIBLE
         dos7.visibility = View.VISIBLE
+        dosw7.visibility = View.INVISIBLE
+        dosc7.visibility = View.INVISIBLE
+        dos8.visibility = View.VISIBLE
 
 
         // Set the top margin of dos5 to be 10dp below dos4
@@ -465,6 +544,12 @@ class DosDontsActivity : AppCompatActivity() {
         dos7LayoutParams.topToBottom = R.id.dos6
         dos7LayoutParams.topMargin = dpToPx(10)
         dos7.layoutParams = dos7LayoutParams
+
+        // Set the top margin of dos8 to be 10dp below dos7
+        val dos8LayoutParams = dos8.layoutParams as ConstraintLayout.LayoutParams
+        dos8LayoutParams.topToBottom = R.id.dos7
+        dos8LayoutParams.topMargin = dpToPx(10)
+        dos8.layoutParams = dos8LayoutParams
     }
 
     // Click event handler for dosw4
@@ -488,6 +573,9 @@ class DosDontsActivity : AppCompatActivity() {
         dosw6.visibility = View.INVISIBLE
         dosc6.visibility = View.INVISIBLE
         dos7.visibility = View.VISIBLE
+        dosw7.visibility = View.INVISIBLE
+        dosc7.visibility = View.INVISIBLE
+        dos8.visibility = View.VISIBLE
 
         // Reset the top margin of dos2 to its initial value
         val dos2LayoutParams = dos2.layoutParams as ConstraintLayout.LayoutParams
@@ -524,6 +612,12 @@ class DosDontsActivity : AppCompatActivity() {
         dos7LayoutParams.topToBottom = R.id.dos6
         dos7LayoutParams.topMargin = dos7InitialMarginTop
         dos7.layoutParams = dos7LayoutParams
+
+        // Reset the top margin of dos8 to its initial value
+        val dos8LayoutParams = dos8.layoutParams as ConstraintLayout.LayoutParams
+        dos8LayoutParams.topToBottom = R.id.dos7
+        dos8LayoutParams.topMargin = dos8InitialMarginTop
+        dos8.layoutParams = dos8LayoutParams
     }
 
     // Click event handler for dos3
@@ -547,6 +641,9 @@ class DosDontsActivity : AppCompatActivity() {
         dosw6.visibility = View.INVISIBLE
         dosc6.visibility = View.INVISIBLE
         dos7.visibility = View.VISIBLE
+        dosw7.visibility = View.INVISIBLE
+        dosc7.visibility = View.INVISIBLE
+        dos8.visibility = View.VISIBLE
 
 
 
@@ -561,6 +658,12 @@ class DosDontsActivity : AppCompatActivity() {
         dos7LayoutParams.topToBottom = R.id.dos6
         dos7LayoutParams.topMargin = dpToPx(10)
         dos7.layoutParams = dos7LayoutParams
+
+        // Set the top margin of dos8 to be 10dp below dos7
+        val dos8LayoutParams = dos8.layoutParams as ConstraintLayout.LayoutParams
+        dos8LayoutParams.topToBottom = R.id.dos7
+        dos8LayoutParams.topMargin = dpToPx(10)
+        dos8.layoutParams = dos8LayoutParams
     }
 
     // Click event handler for dosw4
@@ -584,6 +687,9 @@ class DosDontsActivity : AppCompatActivity() {
         dosw6.visibility = View.INVISIBLE
         dosc6.visibility = View.INVISIBLE
         dos7.visibility = View.VISIBLE
+        dosw7.visibility = View.INVISIBLE
+        dosc7.visibility = View.INVISIBLE
+        dos8.visibility = View.VISIBLE
 
         // Reset the top margin of dos2 to its initial value
         val dos2LayoutParams = dos2.layoutParams as ConstraintLayout.LayoutParams
@@ -620,6 +726,12 @@ class DosDontsActivity : AppCompatActivity() {
         dos7LayoutParams.topToBottom = R.id.dos6
         dos7LayoutParams.topMargin = dos7InitialMarginTop
         dos7.layoutParams = dos7LayoutParams
+
+        // Reset the top margin of dos8 to its initial value
+        val dos8LayoutParams = dos8.layoutParams as ConstraintLayout.LayoutParams
+        dos8LayoutParams.topToBottom = R.id.dos7
+        dos8LayoutParams.topMargin = dos8InitialMarginTop
+        dos8.layoutParams = dos8LayoutParams
     }
 
     // Click event handler for dos6
@@ -643,6 +755,9 @@ class DosDontsActivity : AppCompatActivity() {
         dosw6.visibility = View.VISIBLE
         dosc6.visibility = View.VISIBLE
         dos7.visibility = View.VISIBLE
+        dosw7.visibility = View.INVISIBLE
+        dosc7.visibility = View.INVISIBLE
+        dos8.visibility = View.VISIBLE
 
 
 
@@ -651,6 +766,12 @@ class DosDontsActivity : AppCompatActivity() {
         dos7LayoutParams.topToBottom = R.id.dosc6
         dos7LayoutParams.topMargin = dpToPx(10)
         dos7.layoutParams = dos7LayoutParams
+
+        // Set the top margin of dos8 to be 10dp below dos7
+        val dos8LayoutParams = dos8.layoutParams as ConstraintLayout.LayoutParams
+        dos8LayoutParams.topToBottom = R.id.dos7
+        dos8LayoutParams.topMargin = dpToPx(10)
+        dos8.layoutParams = dos8LayoutParams
     }
 
     // Click event handler for dosw6
@@ -674,6 +795,9 @@ class DosDontsActivity : AppCompatActivity() {
         dosw6.visibility = View.INVISIBLE
         dosc6.visibility = View.INVISIBLE
         dos7.visibility = View.VISIBLE
+        dosw7.visibility = View.INVISIBLE
+        dosc7.visibility = View.INVISIBLE
+        dos8.visibility = View.VISIBLE
 
         // Reset the top margin of dos2 to its initial value
         val dos2LayoutParams = dos2.layoutParams as ConstraintLayout.LayoutParams
@@ -710,6 +834,112 @@ class DosDontsActivity : AppCompatActivity() {
         dos7LayoutParams.topToBottom = R.id.dos6
         dos7LayoutParams.topMargin = dos7InitialMarginTop
         dos7.layoutParams = dos7LayoutParams
+
+        // Reset the top margin of dos8 to its initial value
+        val dos8LayoutParams = dos8.layoutParams as ConstraintLayout.LayoutParams
+        dos8LayoutParams.topToBottom = R.id.dos7
+        dos8LayoutParams.topMargin = dos8InitialMarginTop
+        dos8.layoutParams = dos8LayoutParams
+    }
+    // Click event handler for dos7
+    fun onDos7Click(view: View) {
+        dos1.visibility = View.VISIBLE
+        dosw1.visibility = View.INVISIBLE
+        dosc1.visibility = View.INVISIBLE
+        dosw2.visibility = View.INVISIBLE
+        dosc2.visibility = View.INVISIBLE
+        dos2.visibility = View.VISIBLE
+        dos3.visibility = View.VISIBLE
+        dosw3.visibility = View.INVISIBLE
+        dosc3.visibility = View.INVISIBLE
+        dos4.visibility = View.VISIBLE
+        dosw4.visibility = View.INVISIBLE
+        dosc4.visibility = View.INVISIBLE
+        dos5.visibility = View.VISIBLE
+        dosw5.visibility = View.INVISIBLE
+        dosc5.visibility = View.INVISIBLE
+        dos6.visibility = View.VISIBLE
+        dosw6.visibility = View.INVISIBLE
+        dosc6.visibility = View.INVISIBLE
+        dos7.visibility = View.INVISIBLE
+        dosw7.visibility = View.VISIBLE
+        dosc7.visibility = View.VISIBLE
+        dos8.visibility = View.VISIBLE
+
+
+        // Set the top margin of dos8 to be 10dp below dos7
+        val dos8LayoutParams = dos8.layoutParams as ConstraintLayout.LayoutParams
+        dos8LayoutParams.topToBottom = R.id.dosc7
+        dos8LayoutParams.topMargin = dpToPx(10)
+        dos8.layoutParams = dos8LayoutParams
+    }
+
+    // Click event handler for dosw7
+    fun onDosw7Click(view: View) {
+        dos1.visibility = View.VISIBLE
+        dosw1.visibility = View.INVISIBLE
+        dosc1.visibility = View.INVISIBLE
+        dosw2.visibility = View.INVISIBLE
+        dosc2.visibility = View.INVISIBLE
+        dos2.visibility = View.VISIBLE
+        dos3.visibility = View.VISIBLE
+        dosw3.visibility = View.INVISIBLE
+        dosc3.visibility = View.INVISIBLE
+        dos4.visibility = View.VISIBLE
+        dosw4.visibility = View.INVISIBLE
+        dosc4.visibility = View.INVISIBLE
+        dos5.visibility = View.VISIBLE
+        dosw5.visibility = View.INVISIBLE
+        dosc5.visibility = View.INVISIBLE
+        dos6.visibility = View.VISIBLE
+        dosw6.visibility = View.INVISIBLE
+        dosc6.visibility = View.INVISIBLE
+        dos7.visibility = View.VISIBLE
+        dosw7.visibility = View.INVISIBLE
+        dosc7.visibility = View.INVISIBLE
+        dos8.visibility = View.VISIBLE
+
+        // Reset the top margin of dos2 to its initial value
+        val dos2LayoutParams = dos2.layoutParams as ConstraintLayout.LayoutParams
+        dos2LayoutParams.topToBottom = R.id.dos1
+        dos2LayoutParams.topMargin = dos2InitialMarginTop
+        dos2.layoutParams = dos2LayoutParams
+
+        // Reset the top margin of dos3 to its initial value
+        val dos3LayoutParams = dos3.layoutParams as ConstraintLayout.LayoutParams
+        dos3LayoutParams.topToBottom = R.id.dos2
+        dos3LayoutParams.topMargin = dos3InitialMarginTop
+        dos3.layoutParams = dos3LayoutParams
+
+        // Reset the top margin of dos4 to its initial value
+        val dos4LayoutParams = dos4.layoutParams as ConstraintLayout.LayoutParams
+        dos4LayoutParams.topToBottom = R.id.dos3
+        dos4LayoutParams.topMargin = dos4InitialMarginTop
+        dos4.layoutParams = dos4LayoutParams
+
+        // Reset the top margin of dos5 to its initial value
+        val dos5LayoutParams = dos5.layoutParams as ConstraintLayout.LayoutParams
+        dos5LayoutParams.topToBottom = R.id.dos4
+        dos5LayoutParams.topMargin = dos4InitialMarginTop
+        dos5.layoutParams = dos5LayoutParams
+
+        // Reset the top margin of dos6 to its initial value
+        val dos6LayoutParams = dos6.layoutParams as ConstraintLayout.LayoutParams
+        dos6LayoutParams.topToBottom = R.id.dos5
+        dos6LayoutParams.topMargin = dos6InitialMarginTop
+        dos6.layoutParams = dos6LayoutParams
+
+        // Reset the top margin of dos7 to its initial value
+        val dos7LayoutParams = dos7.layoutParams as ConstraintLayout.LayoutParams
+        dos7LayoutParams.topToBottom = R.id.dos6
+        dos7LayoutParams.topMargin = dos7InitialMarginTop
+        dos7.layoutParams = dos7LayoutParams
+
+        // Reset the top margin of dos8 to its initial value
+        val dos8LayoutParams = dos8.layoutParams as ConstraintLayout.LayoutParams
+        dos8LayoutParams.topToBottom = R.id.dos7
+        dos8LayoutParams.topMargin = dos8InitialMarginTop
+        dos8.layoutParams = dos8LayoutParams
     }
     // Utility function to convert dp to pixels
     private fun dpToPx(dp: Int): Int {

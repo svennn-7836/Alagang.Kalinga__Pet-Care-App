@@ -268,6 +268,41 @@
             android:visibility="visible"
             android:onClick="onDos7Click" />
 
+        <ImageView
+            android:id="@+id/dosc7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/dosc7"
+            android:layout_marginTop="483dp"
+            android:visibility="invisible"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/dosw7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/dosw7"
+            android:layout_marginTop="472dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:visibility="invisible"
+            android:onClick="onDosw7Click" />
+
+        <ImageView
+            android:id="@+id/dos8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/dos8"
+            android:layout_marginTop="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/dos7"
+            android:visibility="visible"
+            android:onClick="onDos8Click" />
+
         <!-- Add the remaining ImageView elements for dos3, dos4, dos5, etc. -->
 
     </androidx.constraintlayout.widget.ConstraintLayout>
