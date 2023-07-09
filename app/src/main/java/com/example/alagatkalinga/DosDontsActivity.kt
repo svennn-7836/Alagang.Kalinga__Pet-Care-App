@@ -13,10 +13,20 @@ class DosDontsActivity : AppCompatActivity() {
     private lateinit var dos2: ImageView
     private lateinit var dos3: ImageView
     private lateinit var dos4: ImageView
-    private lateinit var dosLayoutParams: ConstraintLayout.LayoutParams
-    private lateinit var dos2LayoutParams: ConstraintLayout.LayoutParams
-    private lateinit var dos3LayoutParams: ConstraintLayout.LayoutParams
-    private lateinit var dos4LayoutParams: ConstraintLayout.LayoutParams
+    private lateinit var dos5: ImageView
+    private lateinit var dos6: ImageView
+    private lateinit var dos7: ImageView
+    private lateinit var dos8: ImageView
+    private lateinit var dos9: ImageView
+    private lateinit var dos10: ImageView
+    private lateinit var dos11: ImageView
+    private lateinit var dos12: ImageView
+    private lateinit var dos13: ImageView
+    private lateinit var dos14: ImageView
+    private lateinit var dontstitle: ImageView
+    private lateinit var donts1: ImageView
+    private lateinit var donts2: ImageView
+    private lateinit var donts3: ImageView
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -33,12 +43,20 @@ class DosDontsActivity : AppCompatActivity() {
         dos2 = findViewById(R.id.dos2)
         dos3 = findViewById(R.id.dos3)
         dos4 = findViewById(R.id.dos4)
-
-        // Save the initial layout params of dos1, dos2, dos3, and dos4 for later use
-        dosLayoutParams = dos1.layoutParams as ConstraintLayout.LayoutParams
-        dos2LayoutParams = dos2.layoutParams as ConstraintLayout.LayoutParams
-        dos3LayoutParams = dos3.layoutParams as ConstraintLayout.LayoutParams
-        dos4LayoutParams = dos4.layoutParams as ConstraintLayout.LayoutParams
+        dos5 = findViewById(R.id.dos5)
+        dos6 = findViewById(R.id.dos6)
+        dos7 = findViewById(R.id.dos7)
+        dos8 = findViewById(R.id.dos8)
+        dos9 = findViewById(R.id.dos9)
+        dos10 = findViewById(R.id.dos10)
+        dos11 = findViewById(R.id.dos11)
+        dos12 = findViewById(R.id.dos12)
+        dos13 = findViewById(R.id.dos13)
+        dos14 = findViewById(R.id.dos14)
+        dontstitle = findViewById(R.id.dontstitle)
+        donts1 = findViewById(R.id.donts1)
+        donts2 = findViewById(R.id.donts2)
+        donts3 = findViewById(R.id.donts3)
 
         dos1.setOnClickListener {
             dos1.visibility = View.INVISIBLE
@@ -50,20 +68,29 @@ class DosDontsActivity : AppCompatActivity() {
             layoutParams.topToBottom = dosc1.id
             dosw1.layoutParams = layoutParams
 
-            // Move dos2 to the desired position
-            dos2LayoutParams.topToBottom = dosc1.id
-            dos2LayoutParams.topMargin = resources.getDimensionPixelOffset(R.dimen.dos2_margin_top)
-            dos2.layoutParams = dos2LayoutParams
+            // Move dos2 to dos14 to the desired position
+            for (i in 2..14) {
+                val dosView = findViewById<ImageView>(resources.getIdentifier("dos$i", "id", packageName))
+                val dosLayoutParams = dosView.layoutParams as ConstraintLayout.LayoutParams
+                dosLayoutParams.topToBottom = dosc1.id
+                dosLayoutParams.topMargin = resources.getDimensionPixelOffset(resources.getIdentifier("dos${i}_margin_top", "dimen", packageName))
+                dosView.layoutParams = dosLayoutParams
+            }
 
-            // Move dos3 to the desired position
-            dos3LayoutParams.topToBottom = dos2.id
-            dos3LayoutParams.topMargin = resources.getDimensionPixelOffset(R.dimen.dos3_margin_top)
-            dos3.layoutParams = dos3LayoutParams
+            // Move dontstitle to the desired position
+            val dontstitleLayoutParams = dontstitle.layoutParams as ConstraintLayout.LayoutParams
+            dontstitleLayoutParams.topToBottom = dos14.id
+            dontstitleLayoutParams.topMargin = resources.getDimensionPixelOffset(R.dimen.dontstitle_margin_top)
+            dontstitle.layoutParams = dontstitleLayoutParams
 
-            // Move dos4 to the desired position
-            dos4LayoutParams.topToBottom = dos3.id
-            dos4LayoutParams.topMargin = resources.getDimensionPixelOffset(R.dimen.dos4_margin_top)
-            dos4.layoutParams = dos4LayoutParams
+            // Move donts1 to donts3 to the desired position
+            for (i in 1..3) {
+                val dontsView = findViewById<ImageView>(resources.getIdentifier("donts$i", "id", packageName))
+                val dontsLayoutParams = dontsView.layoutParams as ConstraintLayout.LayoutParams
+                dontsLayoutParams.topToBottom = dontstitle.id
+                dontsLayoutParams.topMargin = resources.getDimensionPixelOffset(resources.getIdentifier("donts${i}_margin_top", "dimen", packageName))
+                dontsView.layoutParams = dontsLayoutParams
+            }
         }
 
         dosw1.setOnClickListener {
@@ -76,24 +103,29 @@ class DosDontsActivity : AppCompatActivity() {
             layoutParams.topToTop = ConstraintLayout.LayoutParams.PARENT_ID
             dosw1.layoutParams = layoutParams
 
-            // Reset the position of dos2
-            dos2LayoutParams.topToBottom = dos1.id
-            dos2LayoutParams.topMargin = resources.getDimensionPixelOffset(R.dimen.dos2_initial_margin_top)
-            dos2.layoutParams = dos2LayoutParams
+            // Reset the position of dos2 to dos14
+            for (i in 2..14) {
+                val dosView = findViewById<ImageView>(resources.getIdentifier("dos$i", "id", packageName))
+                val dosLayoutParams = dosView.layoutParams as ConstraintLayout.LayoutParams
+                dosLayoutParams.topToBottom = dos1.id
+                dosLayoutParams.topMargin = resources.getDimensionPixelOffset(resources.getIdentifier("dos${i}_initial_margin_top", "dimen", packageName))
+                dosView.layoutParams = dosLayoutParams
+            }
 
-            // Reset the position of dos3
-            dos3LayoutParams.topToBottom = dos2.id
-            dos3LayoutParams.topMargin = resources.getDimensionPixelOffset(R.dimen.dos3_initial_margin_top)
-            dos3.layoutParams = dos3LayoutParams
+            // Reset the position of dontstitle
+            val dontstitleLayoutParams = dontstitle.layoutParams as ConstraintLayout.LayoutParams
+            dontstitleLayoutParams.topToBottom = dos14.id
+            dontstitleLayoutParams.topMargin = resources.getDimensionPixelOffset(R.dimen.dontstitle_initial_margin_top)
+            dontstitle.layoutParams = dontstitleLayoutParams
 
-            // Reset the position of dos4
-            dos4LayoutParams.topToBottom = dos3.id
-            dos4LayoutParams.topMargin = resources.getDimensionPixelOffset(R.dimen.dos4_initial_margin_top)
-            dos4.layoutParams = dos4LayoutParams
+            // Reset the position of donts1 to donts3
+            for (i in 1..3) {
+                val dontsView = findViewById<ImageView>(resources.getIdentifier("donts$i", "id", packageName))
+                val dontsLayoutParams = dontsView.layoutParams as ConstraintLayout.LayoutParams
+                dontsLayoutParams.topToBottom = dontstitle.id
+                dontsLayoutParams.topMargin = resources.getDimensionPixelOffset(resources.getIdentifier("donts${i}_initial_margin_top", "dimen", packageName))
+                dontsView.layoutParams = dontsLayoutParams
+            }
         }
     }
 }
-
-
-
-

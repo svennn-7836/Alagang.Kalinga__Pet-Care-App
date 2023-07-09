@@ -6,5 +6,37 @@
     <dimen name="dos3_initial_margin_top">264dp</dimen>
     <dimen name="dos4_margin_top">584dp</dimen>
     <dimen name="dos4_initial_margin_top">308dp</dimen>
+    <dimen name="dos5_margin_top">628dp</dimen>
+    <dimen name="dos5_initial_margin_top">352dp</dimen>
+
+    <dimen name="dos6_margin_top">672dp</dimen>
+    <dimen name="dos6_initial_margin_top">396dp</dimen>
+    <dimen name="dos7_margin_top">716dp</dimen>
+    <dimen name="dos7_initial_margin_top">440dp</dimen>
+    <dimen name="dos8_margin_top">760dp</dimen>
+    <dimen name="dos8_initial_margin_top">484dp</dimen>
+
+    <dimen name="dos9_margin_top">804dp</dimen>
+    <dimen name="dos9_initial_margin_top">528dp</dimen>
+    <dimen name="dos10_margin_top">848dp</dimen>
+    <dimen name="dos10_initial_margin_top">572dp</dimen>
+    <dimen name="dos11_margin_top">892dp</dimen>
+    <dimen name="dos11_initial_margin_top">616dp</dimen>
+
+    <dimen name="dos12_margin_top">936dp</dimen>
+    <dimen name="dos12_initial_margin_top">660dp</dimen>
+    <dimen name="dos13_margin_top">996dp</dimen>
+    <dimen name="dos13_initial_margin_top">720dp</dimen>
+    <dimen name="dos14_margin_top">1056dp</dimen>
+    <dimen name="dos14_initial_margin_top">780dp</dimen>
+
+    <dimen name="dontstitle_margin_top">1136dp</dimen>
+    <dimen name="dontstitle_initial_margin_top">860dp</dimen>
+    <dimen name="donts1_margin_top">1176dp</dimen>
+    <dimen name="donts1_initial_margin_top">900dp</dimen>
+    <dimen name="donts2_margin_top">1216dp</dimen>
+    <dimen name="donts2_initial_margin_top">940dp</dimen>
+    <dimen name="donts3_margin_top">1256dp</dimen>
+    <dimen name="donts3_initial_margin_top">980dp</dimen>
     <!-- Other dimension resources -->
 </resources>

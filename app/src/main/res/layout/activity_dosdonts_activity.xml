@@ -121,6 +121,7 @@
             android:layout_height="wrap_content"
             android:src="@drawable/dos8"
             android:layout_marginTop="484dp"
+
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
@@ -131,6 +132,7 @@
             android:layout_height="wrap_content"
             android:src="@drawable/dos9"
             android:layout_marginTop="528dp"
+
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
@@ -141,6 +143,7 @@
             android:layout_height="wrap_content"
             android:src="@drawable/dos10"
             android:layout_marginTop="572dp"
+
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
@@ -151,6 +154,7 @@
             android:layout_height="wrap_content"
             android:src="@drawable/dos11"
             android:layout_marginTop="616dp"
+
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
@@ -161,6 +165,7 @@
             android:layout_height="wrap_content"
             android:src="@drawable/dos12"
             android:layout_marginTop="660dp"
+
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
@@ -170,6 +175,7 @@
             android:layout_height="wrap_content"
             android:src="@drawable/dos13"
             android:layout_marginTop="720dp"
+
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
@@ -179,16 +185,19 @@
             android:layout_height="wrap_content"
             android:src="@drawable/dos13"
             android:layout_marginTop="780dp"
+
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
         <ImageView
+            android:id="@+id/dontstitle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
             android:layout_marginTop="860dp"
             android:src="@drawable/dontstitle"
+
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
         <ImageView
@@ -197,6 +206,7 @@
             android:layout_height="wrap_content"
             android:src="@drawable/donts1"
             android:layout_marginTop="900dp"
+
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
@@ -206,6 +216,7 @@
             android:layout_height="wrap_content"
             android:src="@drawable/donts2"
             android:layout_marginTop="940dp"
+
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
@@ -215,6 +226,7 @@
             android:layout_height="wrap_content"
             android:src="@drawable/donts3"
             android:layout_marginTop="980dp"
+
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
