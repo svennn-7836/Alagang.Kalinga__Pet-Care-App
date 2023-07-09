@@ -22,6 +22,11 @@ class DosDontsActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_dosdonts_activity)
 
+        val backButton: ImageView = findViewById(R.id.BackGreen1)
+        backButton.setOnClickListener {
+            onBackPressed()
+        }
+
         dos1 = findViewById(R.id.dos1)
         dosw1 = findViewById(R.id.dosw1)
         dosc1 = findViewById(R.id.dosc1)
