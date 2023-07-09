@@ -149,7 +149,7 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             android:visibility="invisible"
-            android:onClick="onDosw2Click" />
+            android:onClick="onDosw3Click" />
 
         <ImageView
             android:id="@+id/dos4"
@@ -161,7 +161,42 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/dos3"
             android:visibility="visible"
-            android:onClick="onDos3Click" />
+            android:onClick="onDos4Click" />
+
+        <ImageView
+            android:id="@+id/dosc4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/dosc4"
+            android:layout_marginTop="334dp"
+            android:visibility="invisible"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/dosw4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/dosw4"
+            android:layout_marginTop="323dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:visibility="invisible"
+            android:onClick="onDosw4Click" />
+
+        <ImageView
+            android:id="@+id/dos5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/dos5"
+            android:layout_marginTop="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/dos4"
+            android:visibility="visible"
+            android:onClick="onDos5Click" />
 
         <!-- Add the remaining ImageView elements for dos3, dos4, dos5, etc. -->
 
