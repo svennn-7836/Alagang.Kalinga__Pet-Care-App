@@ -143,7 +143,7 @@
             android:id="@+id/dosw3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:src="@drawable/dosw2"
+            android:src="@drawable/dosw3"
             android:layout_marginTop="274dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -302,6 +302,42 @@
             app:layout_constraintTop_toBottomOf="@+id/dos7"
             android:visibility="visible"
             android:onClick="onDos8Click" />
+
+        <ImageView
+            android:id="@+id/dosc8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/dosc7"
+            android:layout_marginTop="534dp"
+            android:visibility="invisible"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/dosw8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/dosw8"
+            android:layout_marginTop="523dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:visibility="invisible"
+            android:onClick="onDosw8Click" />
+
+        <ImageView
+            android:id="@+id/dos9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/dos9"
+            android:layout_marginTop="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/dos8"
+            android:visibility="visible"
+            android:onClick="onDos9Click" />
+
 
         <!-- Add the remaining ImageView elements for dos3, dos4, dos5, etc. -->
 
