@@ -68,6 +68,11 @@ class DosDontsActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_dosdonts_activity)
 
+        val backButton: ImageView = findViewById(R.id.BackGreen1)
+        backButton.setOnClickListener {
+            onBackPressed()
+        }
+
         // Initialize the ImageView elements
         dos1 = findViewById(R.id.dos1)
         dosw1 = findViewById(R.id.dosw1)
@@ -3451,7 +3456,7 @@ class DosDontsActivity : AppCompatActivity() {
         dos13.visibility = View.VISIBLE
         dosw13.visibility = View.INVISIBLE
         dosc13.visibility = View.INVISIBLE
-        dos14.visibility = View.VISIBLE
+        dos14.visibility = View.INVISIBLE
         dosw14.visibility = View.VISIBLE
         dosc14.visibility = View.VISIBLE
 

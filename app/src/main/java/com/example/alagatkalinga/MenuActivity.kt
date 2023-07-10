@@ -21,6 +21,11 @@ class MenuActivity : AppCompatActivity() {
             val intent = Intent(this, DosDontsActivity::class.java)
             startActivity(intent)
         }
+        val symptomsImage: ImageView = findViewById(R.id.symptomsImage)
+        symptomsImage.setOnClickListener {
+            val intent = Intent(this, SymptomsActivity::class.java)
+            startActivity(intent)
+        }
 
         // Add your activity setup code here
     }
