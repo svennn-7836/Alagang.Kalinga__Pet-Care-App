@@ -26,6 +26,16 @@ class MenuActivity : AppCompatActivity() {
             val intent = Intent(this, SymptomsActivity::class.java)
             startActivity(intent)
         }
+        val recordImage: ImageView = findViewById(R.id.recordImage)
+        recordImage.setOnClickListener {
+            val intent = Intent(this, RecordActivity::class.java)
+            startActivity(intent)
+        }
+        val alarmImage: ImageView = findViewById(R.id.alarmImage)
+        alarmImage.setOnClickListener {
+            val intent = Intent(this, AlarmActivity::class.java)
+            startActivity(intent)
+        }
 
         // Add your activity setup code here
     }

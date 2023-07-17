@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/brown">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/brown"
+        tools:context=".MainActivity">
+
+        <ImageView
+            android:id="@+id/BackBrown"
+            android:layout_width="70dp"
+            android:layout_height="56dp"
+            android:layout_marginStart="4dp"
+            android:layout_marginTop="4dp"
+            android:clickable="true"
+            android:contentDescription="Backbrown"
+            android:onClick="onBrownClick"
+            android:src="@drawable/backbrown"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_weight="5"
+            tools:ignore="ContentDescription" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/recordsearch"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="366dp"
+            android:layout_height="567dp"
+            android:layout_marginTop="164dp"
+            android:src="@drawable/recordrectangle"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <ImageView
+            android:id="@+id/record1"
+            android:layout_width="329dp"
+            android:layout_height="69dp"
+            android:layout_marginTop="184dp"
+            android:onClick="onRecord1Click"
+            android:src="@drawable/record1"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.505"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <ImageView
+            android:id="@+id/record2"
+            android:layout_width="329dp"
+            android:layout_height="69dp"
+            android:layout_marginTop="8dp"
+            android:onClick="onRecord2Click"
+            android:src="@drawable/record2"
+            android:visibility="visible"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.505"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/record1" />
+
+
+        <ImageView
+            android:id="@+id/record3"
+            android:layout_width="329dp"
+            android:layout_height="69dp"
+            android:layout_marginTop="8dp"
+            android:onClick="onRecord3Click"
+            android:src="@drawable/record3"
+            android:visibility="visible"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.505"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/record2" />
+
+        <ImageView
+            android:id="@+id/record4"
+            android:layout_width="329dp"
+            android:layout_height="69dp"
+            android:layout_marginTop="4dp"
+            android:onClick="onRecord4Click"
+            android:src="@drawable/record4"
+            android:visibility="visible"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.505"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/record3" />
+
+        <ImageView
+            android:id="@+id/record5"
+            android:layout_width="329dp"
+            android:layout_height="69dp"
+            android:layout_marginTop="12dp"
+            android:onClick="onRecord5Click"
+            android:src="@drawable/record1"
+            android:visibility="visible"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.505"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/record4" />
+
+
+        <ImageView
+            android:id="@+id/addrecordbutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="616dp"
+            android:onClick="onAddRecordbuttonClick"
+            android:src="@drawable/addrecordbutton"
+            android:visibility="visible"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <!-- Add the remaining ImageView elements for dos3, dos4, dos5, etc. -->
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

@@ -12,12 +12,135 @@
         android:layout_height="match_parent"
         android:background="@color/red">
 
+
         <ImageView
-            android:id="@+id/contentbox"
-            android:layout_width="411dp"
-            android:layout_height="match_parent"
-            android:src="@drawable/catrecipe4"
-            app:layout_constraintStart_toStartOf="parent" />
+            android:id="@+id/Catfood4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/catfoodpic4"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <View
+            android:layout_width="350dp"
+            android:layout_height="1000dp"
+            android:background="@drawable/dogfoodbg1"
+            app:layout_constraintTop_toTopOf="@id/Catfood4"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginTop="136dp"/>
+        <View
+            android:layout_width="325dp"
+            android:layout_height="50dp"
+            android:background="@drawable/titlefoodbg"
+            android:layout_marginTop="150dp"
+            app:layout_constraintTop_toTopOf="@+id/Catfood4"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toTopOf="@id/Catfood4"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginTop="160dp"
+            android:text="Cat Food with Chicken, Spinach - Quinoa"
+            android:textColor="@color/white"
+            android:textSize="17dp"/>
+
+        <View
+            android:layout_width="325dp"
+            android:layout_height="185dp"
+            android:background="@drawable/titlefoodbg"
+            android:layout_marginTop="210dp"
+            app:layout_constraintTop_toTopOf="@+id/Catfood4"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toTopOf="@id/Catfood4"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginTop="210dp"
+            android:text="Ingredients"
+            android:textColor="@color/white"
+            android:textSize="28dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toTopOf="@id/Catfood4"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginTop="256dp"
+            android:text="* 74 gr baked chicken breast, \n skinless, boneless
+\n * 46 gr quinoa cooked
+\n * 23 gr spinach, boiled, unsalted
+\n * 1 teaspoon canola oil
+\n * 0.38 gr Morton Iodized Salt"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:textAlignment="center"/>
+
+        <View
+            android:layout_width="325dp"
+            android:layout_height="450dp"
+            android:background="@drawable/titlefoodbg"
+            android:layout_marginTop="405dp"
+            app:layout_constraintTop_toTopOf="@+id/Catfood4"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="415dp"
+            android:text="Directions"
+            android:textColor="@color/white"
+            android:textSize="24dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@id/Catfood4" />
+
+        <TextView
+            android:layout_width="298dp"
+            android:layout_height="400dp"
+            android:layout_marginTop="445dp"
+            android:text="Procedure
+\n \n 1. Thoroughly shred the baked chicken breast and add to the bowl.
+\n \n 2. Chop the spinach into small pieces.
+\n \n 3. Mix all these ingredients together in a bowl and the meal is ready. If your cat prefers a more pate-like consistency you can blend it with a little bit of clean drinking water.
+\n \n 4. Divide into the number of meals your cat receives in a day.
+\n \n 5. Store the leftovers in your airtight container in the refrigerator."
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@id/Catfood4" />
+
+        <View
+            android:layout_width="325dp"
+            android:layout_height="250dp"
+            android:background="@drawable/titlefoodbg"
+            android:layout_marginTop="870dp"
+            app:layout_constraintTop_toTopOf="@+id/Catfood4"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/catnutrition4"
+            android:layout_marginTop="900dp"
+            app:layout_constraintTop_toTopOf="@+id/Catfood4"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
 
         <ImageView
             android:id="@+id/CatBackRed4"
@@ -33,6 +156,8 @@
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_weight="5"
             tools:ignore="ContentDescription" />
+
+
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </ScrollView>

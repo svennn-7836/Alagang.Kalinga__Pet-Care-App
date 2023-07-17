@@ -12,13 +12,139 @@
         android:layout_height="match_parent"
         android:background="@color/red">
 
+
         <ImageView
-            android:id="@+id/contentbox"
-            android:layout_width="411dp"
-            android:layout_height="match_parent"
-            android:layout_marginTop="172dp"
-            android:src="@drawable/dogrecipe8"
-            app:layout_constraintStart_toStartOf="parent"/>
+            android:id="@+id/dogfood8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/dogfoodpic8"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <View
+            android:layout_width="350dp"
+            android:layout_height="1260dp"
+            android:background="@drawable/dogfoodbg1"
+            app:layout_constraintTop_toTopOf="@id/dogfood8"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginTop="136dp"/>
+        <View
+            android:layout_width="325dp"
+            android:layout_height="50dp"
+            android:background="@drawable/titlefoodbg"
+            android:layout_marginTop="150dp"
+            app:layout_constraintTop_toTopOf="@+id/dogfood8"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toTopOf="@id/dogfood8"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginTop="160dp"
+            android:text="Homemade Dog Food with Beef"
+            android:textColor="@color/white"
+            android:textSize="21dp"/>
+
+        <View
+            android:layout_width="325dp"
+            android:layout_height="250dp"
+            android:background="@drawable/titlefoodbg"
+            android:layout_marginTop="21dp"
+            app:layout_constraintTop_toTopOf="@+id/dogfood8"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toTopOf="@id/dogfood8"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginTop="210dp"
+            android:text="Ingredients"
+            android:textColor="@color/white"
+            android:textSize="28dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toTopOf="@id/dogfood8"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginTop="260dp"
+            android:text="* 2 pounds ground beef
+\n * 6 cups water, or more as needed
+\n * 4 cups uncooked brown rice
+\n * 1 pound assorted beef bones\n(shin, shank, short ribs, or marrow bones)
+\n * 1 tablespoon chopped fresh rosemary
+\n * (15 ounce) can sliced carrots, drained
+\n * 1 (13.5 ounce) can spinach, drained
+\n * 6 eggs
+\n * 1 (15 ounce) can pumpkin puree"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:textAlignment="center"/>
+
+        <View
+            android:layout_width="325dp"
+            android:layout_height="580dp"
+            android:background="@drawable/titlefoodbg"
+            android:layout_marginTop="490dp"
+            app:layout_constraintTop_toTopOf="@+id/dogfood8"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="485dp"
+            android:text="Directions"
+            android:textColor="@color/white"
+            android:textSize="24dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@id/dogfood8" />
+
+        <TextView
+            android:layout_width="298dp"
+            android:layout_height="700dp"
+            android:layout_marginTop="520dp"
+            android:text="Procedure
+\n \n 1. Place sweet potatoes in a large Dutch oven filled 3/4-full with water. Bring to a boil and cook for 10 minutes. Add chuck roast and bison to the pot and cook until meat is no longer pink, 10 to 12 minutes.
+\n \n 2. Add carrots, peas, green beans, and spinach to the pot and cook over medium heat for 15 minutes. Add oats and stir until mixture has thickened, 5 to 7 minutes. Stir in pumpkin and olive oil; remove from heat and let cool a bit, 5 to 10 minutes. Transfer roast to a plate and dice meat; return to mixture.
+\n \n 3. Use a potato masher to mash up mixture to a mushy consistency. Let mixture cool sufficiently, about 30 minutes. Place into resealable containers and freeze."
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@id/dogfood8" />
+
+        <View
+            android:layout_width="325dp"
+            android:layout_height="290dp"
+            android:background="@drawable/titlefoodbg"
+            android:layout_marginTop="1080dp"
+            app:layout_constraintTop_toTopOf="@+id/dogfood8"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/dognutrition6"
+            android:layout_marginTop="1100dp"
+            app:layout_constraintTop_toTopOf="@+id/dogfood8"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+
         <ImageView
             android:id="@+id/BackRed8"
             android:layout_width="88dp"
@@ -33,6 +159,8 @@
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_weight="5"
             tools:ignore="ContentDescription" />
+
+
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </ScrollView>

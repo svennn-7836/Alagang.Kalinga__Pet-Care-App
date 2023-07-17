@@ -24,20 +24,20 @@
         android:layout_height="375dp"
         android:contentDescription="RecipeBoxR"
         android:src="@drawable/rectangle_8"
-        app:layout_constraintTop_toBottomOf="@id/CatRecipeText"
+        android:layout_marginTop="90dp"
+        app:layout_constraintTop_toTopOf="@id/CatRecipeText"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintBottom_toTopOf="@id/CatRecipeTitle" />
+        app:layout_constraintEnd_toEndOf="parent"/>
     <ImageView
         android:id="@+id/CatRecipeBoxLRed"
-        android:layout_width="384dp"
+        android:layout_width="380dp"
         android:layout_height="365dp"
         android:contentDescription="CatRecipeBoxLR"
         android:src="@drawable/rectangle_16"
-        app:layout_constraintBottom_toTopOf="@id/CatRecipeTitle"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/CatRecipeText" />
+        app:layout_constraintTop_toTopOf="@id/CatRecipeBoxRed"
+        app:layout_constraintEnd_toEndOf="@id/CatRecipeBoxRed"
+        app:layout_constraintStart_toStartOf="@id/CatRecipeBoxRed"
+        app:layout_constraintBottom_toBottomOf="@id/CatRecipeBoxRed" />
 
     <androidx.viewpager.widget.ViewPager
         android:id="@+id/catpager"
@@ -79,25 +79,28 @@
         android:id="@+id/CatpageIndicatorText"
         android:layout_width="138dp"
         android:layout_height="15dp"
-        android:layout_marginTop="532dp"
+        android:layout_marginTop="380dp"
         android:textColor="#FFF"
         android:gravity="center"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="@id/CatRecipeBoxRed" />
 
     <ImageView
         android:id="@+id/CatBackRed00"
         android:layout_width="88dp"
         android:layout_height="56dp"
         android:layout_marginStart="12dp"
-        android:layout_marginTop="648dp"
         android:clickable="true"
         android:contentDescription="CatBackRed00"
         android:onClick="onBackRed00Click"
         android:src="@drawable/backred"
+        android:layout_marginTop="40dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.049"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintTop_toTopOf="@id/CatrecipeTitleText"
         app:layout_constraintVertical_weight="5"
         tools:ignore="ContentDescription" />
 

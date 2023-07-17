@@ -40,6 +40,22 @@
             android:exported="true">
         </activity>
         <activity
+            android:name=".RecordActivity"
+            android:exported="true">
+        </activity>
+        <activity
+            android:name=".RecordNewActivity"
+            android:exported="true">
+        </activity>
+        <activity
+            android:name=".AlarmActivity"
+            android:exported="true">
+        </activity>
+        <activity
+            android:name=".AlarmSetActivity"
+            android:exported="true">
+        </activity>
+        <activity
             android:name=".RecipeListActivity"
             android:exported="true">
         </activity>

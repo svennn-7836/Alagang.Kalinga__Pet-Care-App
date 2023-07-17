@@ -7,18 +7,36 @@
     android:layout_height="match_parent"
     android:background="@color/green">
 
+
+    <ImageView
+        android:id="@+id/symptomsImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:contentDescription="symptoms"
+        android:onClick="onsymptomsClick"
+        android:src="@drawable/symptoms"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.499"
+        tools:ignore="ContentDescription" />
+
     <ImageView
         android:id="@+id/recipeImage"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="32dp"
-        android:layout_marginTop="148dp"
         android:clickable="true"
         android:contentDescription="Recipe"
         android:onClick="onRecipeClick"
         android:src="@drawable/recipe"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.143"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.176"
         app:layout_constraintVertical_weight="5"
         tools:ignore="ContentDescription" />
 
@@ -26,14 +44,16 @@
         android:id="@+id/recordImage"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="148dp"
-        android:layout_marginEnd="32dp"
         android:clickable="true"
         android:contentDescription="record"
         android:onClick="onrecordClick"
         android:src="@drawable/record"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.877"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.176"
         app:layout_constraintVertical_weight="1"
         tools:ignore="ContentDescription" />
 
@@ -42,55 +62,34 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
-        android:layout_marginBottom="132dp"
         android:clickable="true"
         android:contentDescription="Do's and Don'ts"
         android:onClick="onDoDontClick"
         android:src="@drawable/do_s_and_don_t"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/alarmImage"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.817"
         tools:ignore="ContentDescription" />
 
     <ImageView
         android:id="@+id/alarmImage"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="40dp"
-        android:layout_marginBottom="120dp"
         android:clickable="true"
         android:contentDescription="Alarm"
         android:onClick="onAlarmClick"
         android:src="@drawable/alarm"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.884"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.837"
         tools:ignore="ContentDescription" />
 
-    <ImageView
-        android:id="@+id/symptomsImage"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginEnd="140dp"
-        android:layout_marginBottom="288dp"
-        android:clickable="true"
-        android:contentDescription="symptoms"
-        android:onClick="onsymptomsClick"
-        android:src="@drawable/symptoms"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        tools:ignore="ContentDescription" />
 
-    <ImageView
-        android:id="@+id/menuiconImage"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginEnd="356dp"
-        android:layout_marginBottom="636dp"
-        android:clickable="true"
-        android:contentDescription="menuicon"
-        android:onClick="onmrnuivonClick"
-        android:src="@drawable/menu_icon"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        tools:ignore="ContentDescription" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
