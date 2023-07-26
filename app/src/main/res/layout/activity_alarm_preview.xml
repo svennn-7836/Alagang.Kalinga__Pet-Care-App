@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#92D6DD"
+    tools:context=".AlarmActivityPreview">
+
+    <ImageView
+        android:layout_width="411dp"
+        android:layout_height="107dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="0dp"
+        android:elevation="4dp"
+        android:src="@drawable/AlarmTitleBar">
+    </ImageView>
+
+
+    <ImageView
+        android:layout_width="123dp"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="46dp"
+        android:layout_marginTop="115dp"
+        android:layout_marginEnd="115dp"
+        android:layout_marginBottom="115dp"
+        android:gravity="top"
+        android:src="@drawable/YourAlarm">
+
+    </ImageView>
+
+    <ImageView
+        android:layout_width="330dp"
+        android:layout_height="97dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="42dp"
+        android:layout_marginTop="210dp"
+        android:elevation="4dp"
+        android:src="@drawable/AlarmRectangle">
+    </ImageView>
+
+    <ImageView
+        android:layout_width="330dp"
+        android:layout_height="97dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="42dp"
+        android:layout_marginTop="335dp"
+        android:elevation="4dp"
+        android:src="@drawable/AlarmRectangle">
+    </ImageView>
+
+</RelativeLayout>
+
+
+
+
+
+
+
+
+
+
