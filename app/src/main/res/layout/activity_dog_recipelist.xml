@@ -30,8 +30,8 @@
         app:layout_constraintBottom_toTopOf="@id/RecipeTitle" />
     <ImageView
         android:id="@+id/RecipeBoxLRed"
-        android:layout_width="384dp"
-        android:layout_height="365dp"
+        android:layout_width="360dp"
+        android:layout_height="345dp"
         android:contentDescription="RecipeBoxLR"
         android:src="@drawable/rectangle_16"
         app:layout_constraintBottom_toTopOf="@id/RecipeTitle"

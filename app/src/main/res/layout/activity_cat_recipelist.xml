@@ -30,8 +30,8 @@
         app:layout_constraintEnd_toEndOf="parent"/>
     <ImageView
         android:id="@+id/CatRecipeBoxLRed"
-        android:layout_width="380dp"
-        android:layout_height="365dp"
+        android:layout_width="360dp"
+        android:layout_height="345dp"
         android:contentDescription="CatRecipeBoxLR"
         android:src="@drawable/rectangle_16"
         app:layout_constraintTop_toTopOf="@id/CatRecipeBoxRed"
