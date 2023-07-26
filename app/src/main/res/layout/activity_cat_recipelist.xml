@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity"
-    android:background="@color/red">
+    android:background="@color/lightyellow">
 
     <ImageView
         android:id="@+id/CatRecipeText"
@@ -68,7 +68,7 @@
         android:layout_width="364dp"
         android:layout_height="67dp"
         android:gravity="center"
-        android:textColor="#FFF"
+        android:textColor="@color/black"
         android:textSize="25dp"
         app:layout_constraintBottom_toBottomOf="@+id/CatRecipeTitle"
         app:layout_constraintEnd_toEndOf="@+id/CatRecipeTitle"
@@ -80,7 +80,7 @@
         android:layout_width="138dp"
         android:layout_height="20dp"
         android:layout_marginTop="380dp"
-        android:textColor="#FFF"
+        android:textColor="@color/black"
         android:gravity="center"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

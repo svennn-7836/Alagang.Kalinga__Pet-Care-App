@@ -10,7 +10,7 @@
         android:id="@+id/rootLayout"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@color/red">
+        android:background="@color/lightyellow">
 
 
         <ImageView
@@ -49,7 +49,7 @@
             app:layout_constraintEnd_toEndOf="parent"
             android:layout_marginTop="153dp"
             android:text="Deluxe Fish Balls"
-            android:textColor="@color/white"
+            android:textColor="@color/black"
             android:textSize="32dp"/>
 
         <View
@@ -69,7 +69,7 @@
             app:layout_constraintEnd_toEndOf="parent"
             android:layout_marginTop="210dp"
             android:text="Ingredients"
-            android:textColor="@color/white"
+            android:textColor="@color/black"
             android:textSize="28dp"/>
 
         <TextView
@@ -83,7 +83,7 @@
 \n * 2 tbsp bread crumbs
 \n * 1 egg, well beaten
 \n * 3 tbsp or 45 millilitres of grated cheese"
-            android:textColor="@color/white"
+            android:textColor="@color/black"
             android:textSize="18sp"
             android:textAlignment="center"/>
 
@@ -102,7 +102,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="385dp"
             android:text="Directions"
-            android:textColor="@color/white"
+            android:textColor="@color/black"
             android:textSize="24dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -118,7 +118,7 @@
 \n \n 3. Shape into balls and place on greased baking tray.
 \n \n 4. Bake for 20 minutes. Check frequently. When they are golden brown and firm, they are ready.
 \n \n 5. Cool before serving."
-            android:textColor="@color/white"
+            android:textColor="@color/black"
             android:textSize="18sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"

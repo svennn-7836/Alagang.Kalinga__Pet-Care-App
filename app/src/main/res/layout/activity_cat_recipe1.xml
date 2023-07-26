@@ -10,7 +10,7 @@
         android:id="@+id/rootLayout"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@color/red">
+        android:background="@color/lightyellow">
 
 
         <ImageView
@@ -49,7 +49,7 @@
             app:layout_constraintEnd_toEndOf="parent"
             android:layout_marginTop="153dp"
             android:text="Chicken and Tuna Dinner"
-            android:textColor="@color/white"
+            android:textColor="@color/black"
             android:textSize="28dp"/>
 
         <View
@@ -69,7 +69,7 @@
             app:layout_constraintEnd_toEndOf="parent"
             android:layout_marginTop="210dp"
             android:text="Ingredients"
-            android:textColor="@color/white"
+            android:textColor="@color/black"
             android:textSize="28dp"/>
 
         <TextView
@@ -82,7 +82,7 @@
             android:text="* 1/2 cup cooked chicken
 \n * 1 can oil packed tuna
 \n * 1 tbsp mashed cooked carrot"
-            android:textColor="@color/white"
+            android:textColor="@color/black"
             android:textSize="18sp"
             android:textAlignment="center"/>
 
@@ -101,7 +101,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="385dp"
             android:text="Directions"
-            android:textColor="@color/white"
+            android:textColor="@color/black"
             android:textSize="24dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -109,13 +109,13 @@
 
         <TextView
             android:layout_width="298dp"
-            android:layout_height="700dp"
+            android:layout_height="400dp"
             android:layout_marginTop="415dp"
             android:text="Procedure
 \n \n 1. Combine all ingredients in the food processor
 \n \n 2. Puree until blended and serve.
 \n \n 3. As with trout and mackerel dinners, you may refrigerate leftovers. Discard them after three days."
-            android:textColor="@color/white"
+            android:textColor="@color/black"
             android:textSize="18sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"

@@ -10,14 +10,118 @@
         android:id="@+id/rootLayout"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@color/red">
+        android:background="@color/lightyellow">
+
 
         <ImageView
-            android:id="@+id/contentbox"
-            android:layout_width="411dp"
-            android:layout_height="match_parent"
-            android:src="@drawable/catrecipe9"
-            app:layout_constraintStart_toStartOf="parent" />
+            android:id="@+id/Catfood9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/catfoodpic9"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <View
+            android:layout_width="350dp"
+            android:layout_height="700dp"
+            android:background="@drawable/dogfoodbg1"
+            app:layout_constraintTop_toTopOf="@id/Catfood9"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginTop="136dp"/>
+        <View
+            android:layout_width="325dp"
+            android:layout_height="50dp"
+            android:background="@drawable/titlefoodbg"
+            android:layout_marginTop="150dp"
+            app:layout_constraintTop_toTopOf="@+id/Catfood9"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toTopOf="@id/Catfood9"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginTop="153dp"
+            android:text="Kitty Breakfast"
+            android:textColor="@color/black"
+            android:textSize="32dp"/>
+
+        <View
+            android:layout_width="325dp"
+            android:layout_height="160dp"
+            android:background="@drawable/titlefoodbg"
+            android:layout_marginTop="210dp"
+            app:layout_constraintTop_toTopOf="@+id/Catfood9"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toTopOf="@id/Catfood9"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginTop="210dp"
+            android:text="Ingredients"
+            android:textColor="@color/black"
+            android:textSize="28dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toTopOf="@id/Catfood9"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginTop="260dp"
+            android:text="* 1 tbsp dry milk, nonfat
+\n * 3 medium sized eggs
+\n * 3 tbsp cottage cheese
+\n * 2 tbsp grated vegetables"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textAlignment="center"/>
+
+        <View
+            android:layout_width="325dp"
+            android:layout_height="430dp"
+            android:background="@drawable/titlefoodbg"
+            android:layout_marginTop="380dp"
+            app:layout_constraintTop_toTopOf="@+id/Catfood9"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="385dp"
+            android:text="Directions"
+            android:textColor="@color/black"
+            android:textSize="24dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@id/Catfood9" />
+
+        <TextView
+            android:layout_width="298dp"
+            android:layout_height="400dp"
+            android:layout_marginTop="415dp"
+            android:text="Procedure
+\n \n 1. Mix milk powder and a small amount of water together.
+\n \n 2. Add eggs. Beat until well blended.
+\n \n 3. Pour the mixture into small non-stick frying pan. Cook over medium-low heat until done.
+\n \n 4. Flip as you would a pancake and spread cottage cheese and vegetables over half of cooking surface. Fold as you would an omelet. Cool and cut into bite-sized pieces before serving."
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@id/Catfood9" />
 
         <ImageView
             android:id="@+id/CatBackRed9"
@@ -33,6 +137,8 @@
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_weight="5"
             tools:ignore="ContentDescription" />
+
+
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </ScrollView>

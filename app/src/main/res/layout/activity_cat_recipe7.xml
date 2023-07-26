@@ -10,14 +10,126 @@
         android:id="@+id/rootLayout"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@color/red">
+        android:background="@color/lightyellow">
+
 
         <ImageView
-            android:id="@+id/contentbox"
-            android:layout_width="411dp"
-            android:layout_height="match_parent"
-            android:src="@drawable/catrecipe7"
-            app:layout_constraintStart_toStartOf="parent" />
+            android:id="@+id/Catfood7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/catfoodpic7"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <View
+            android:layout_width="350dp"
+            android:layout_height="1100dp"
+            android:background="@drawable/dogfoodbg1"
+            app:layout_constraintTop_toTopOf="@id/Catfood7"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginTop="136dp"/>
+        <View
+            android:layout_width="325dp"
+            android:layout_height="50dp"
+            android:background="@drawable/titlefoodbg"
+            android:layout_marginTop="150dp"
+            app:layout_constraintTop_toTopOf="@+id/Catfood7"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toTopOf="@id/Catfood7"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginTop="153dp"
+            android:text="Chicken and Greens"
+            android:textColor="@color/black"
+            android:textSize="32dp"/>
+
+        <View
+            android:layout_width="325dp"
+            android:layout_height="340dp"
+            android:background="@drawable/titlefoodbg"
+            android:layout_marginTop="210dp"
+            app:layout_constraintTop_toTopOf="@+id/Catfood7"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toTopOf="@id/Catfood7"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginTop="210dp"
+            android:text="Ingredients"
+            android:textColor="@color/black"
+            android:textSize="28dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toTopOf="@id/Catfood7"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginTop="260dp"
+            android:text="* 3 lb Quartered Roasting Chicken
+\n * 4 cup Water
+\n * 1/2 teaspoon Salt
+\n * 2 piece Celery stalks with leaves
+\n * 1 cup Carrots, finely chopped
+\n * 2 tablespoon Parsley flakes \n or 1/2 cup chopped fresh parsley
+\n * 1/2 cup Barley, uncooked
+\n * 1 tablespoon Lemon juice
+\n * 3 teaspoon Brewer's yeast
+\n * 5 ounce Thawed and drained \n chopped frozen spinach
+\n * 1 cup Fresh green beans, chopped"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textAlignment="center"/>
+
+        <View
+            android:layout_width="325dp"
+            android:layout_height="640dp"
+            android:background="@drawable/titlefoodbg"
+            android:layout_marginTop="565dp"
+            app:layout_constraintTop_toTopOf="@+id/Catfood7"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="575dp"
+            android:text="Directions"
+            android:textColor="@color/black"
+            android:textSize="24dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@id/Catfood7" />
+
+        <TextView
+            android:layout_width="298dp"
+            android:layout_height="600dp"
+            android:layout_marginTop="605dp"
+            android:text="Procedure
+\n \n 1. Place chicken, salt, water and the celery leaves in a large stockpot or slow cooker. (Save the celery stalks.) Cover, bring to a boil. Reduce heat and simmer for 1 to one and a half hours or until chicken is tender.
+\n \n 2. Remove chicken and strain broth into a bowl. Chill broth in refrigerator until top is covered in fat. Skim fat.
+\n \n 3. Remove fat, skin, and bones from chicken. Discard. Cut meat into bite sized pieces. Set aside.
+\n \n 4. Return broth to pot. Add chopped celery with carrots, barley, brewer’s yeast and lemon juice. Cover and simmer 20 minutes.
+\n \n 5. Add chicken, spinach and green beans. Cook 15 more minutes until beans are tender. Cool and serve. It will keep refrigerated for one week or frozen for a month in an airtight container."
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@id/Catfood7" />
 
         <ImageView
             android:id="@+id/CatBackRed7"
@@ -33,6 +145,8 @@
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_weight="5"
             tools:ignore="ContentDescription" />
+
+
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </ScrollView>
