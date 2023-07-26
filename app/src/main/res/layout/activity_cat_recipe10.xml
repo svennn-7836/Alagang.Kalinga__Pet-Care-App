@@ -10,29 +10,134 @@
         android:id="@+id/rootLayout"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@color/red">
+        android:background="@color/lightyellow">
+
 
         <ImageView
-            android:id="@+id/contentbox"
-            android:layout_width="411dp"
-            android:layout_height="match_parent"
-            android:src="@drawable/catrecipe10"
-            app:layout_constraintStart_toStartOf="parent" />
+            android:id="@+id/dogfood10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/dogfoodpic10"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <View
+            android:layout_width="350dp"
+            android:layout_height="650dp"
+            android:background="@drawable/dogfoodbg1"
+            app:layout_constraintTop_toTopOf="@id/dogfood10"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginTop="136dp"/>
+        <View
+            android:layout_width="325dp"
+            android:layout_height="50dp"
+            android:background="@drawable/titlefoodbg"
+            android:layout_marginTop="150dp"
+            app:layout_constraintTop_toTopOf="@+id/dogfood10"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toTopOf="@id/dogfood10"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginTop="160dp"
+            android:text="Lucky and Rippy's Favorite Dog Food"
+            android:textColor="@color/black"
+            android:textSize="19dp"/>
+
+        <View
+            android:layout_width="325dp"
+            android:layout_height="170dp"
+            android:background="@drawable/titlefoodbg"
+            android:layout_marginTop="210dp"
+            app:layout_constraintTop_toTopOf="@+id/dogfood10"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toTopOf="@id/dogfood10"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginTop="210dp"
+            android:text="Ingredients"
+            android:textColor="@color/black"
+            android:textSize="28dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toTopOf="@id/dogfood10"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginTop="260dp"
+            android:text="* 3 pounds minced chicken meat
+\n * 4 cups rice
+\n 2 ½ cups frozen vegetable blend \n (no garlic or onions), minced
+\n 6 ½ water"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textAlignment="center"/>
+
+        <View
+            android:layout_width="325dp"
+            android:layout_height="380dp"
+            android:background="@drawable/titlefoodbg"
+            android:layout_marginTop="390dp"
+            app:layout_constraintTop_toTopOf="@+id/dogfood10"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="400dp"
+            android:text="Directions"
+            android:textColor="@color/black"
+            android:textSize="24dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@id/dogfood10" />
+
+        <TextView
+            android:layout_width="298dp"
+            android:layout_height="400dp"
+            android:layout_marginTop="420dp"
+            android:text="Procedure
+\n \n 1. Place chicken, rice, and vegetables into a large saucepan or Dutch oven; stir in water until smooth. Place over medium-high heat and bring to a boil; stir constantly.
+\n \n 2. Reduce heat to medium-low, cover, and simmer until rice is tender and liquid is absorbed, about 25 minutes. Cool completely before serving; store covered in the refrigerator."
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@id/dogfood10" />
+
 
         <ImageView
-            android:id="@+id/CatBackRed10"
+            android:id="@+id/BackRed7"
             android:layout_width="88dp"
             android:layout_height="56dp"
             android:layout_marginStart="4dp"
             android:layout_marginTop="4dp"
             android:clickable="true"
-            android:contentDescription="CatBackRed10"
-            android:onClick="onCatBackRed10Click"
+            android:contentDescription="BackRed7"
+            android:onClick="onBackRed7Click"
             android:src="@drawable/backred"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_weight="5"
             tools:ignore="ContentDescription" />
+
+
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </ScrollView>

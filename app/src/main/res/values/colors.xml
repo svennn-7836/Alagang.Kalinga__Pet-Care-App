@@ -11,5 +11,7 @@
     <color name="dblue">#0069A2</color>
     <color name="brown">#D38240</color>
     <color name="lightblue">#92D6DD</color>
+    <color name="lightyellow">#FDFD96</color>
+    <color name="orangeyellow">#FFB144</color>
 
 </resources>
