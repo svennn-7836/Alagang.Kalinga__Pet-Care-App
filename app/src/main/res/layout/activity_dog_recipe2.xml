@@ -10,7 +10,7 @@
         android:id="@+id/rootLayout"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@color/red">
+        android:background="@color/lightyellow">
 
 
         <ImageView
@@ -49,7 +49,7 @@
             app:layout_constraintEnd_toEndOf="parent"
             android:layout_marginTop="153dp"
             android:text="Peanut Butter and Pumpkin"
-            android:textColor="@color/white"
+            android:textColor="@color/black"
             android:textSize="26dp"/>
 
         <View
@@ -69,7 +69,7 @@
             app:layout_constraintEnd_toEndOf="parent"
             android:layout_marginTop="210dp"
             android:text="Ingredients"
-            android:textColor="@color/white"
+            android:textColor="@color/black"
             android:textSize="28dp"/>
 
         <TextView
@@ -86,7 +86,7 @@
 \n· ½    teaspoon salt
 \n· ½    teaspoon ground cinnamon
 \n· 1 teaspoon water, \n or more if necessary (Optional)"
-            android:textColor="@color/white"
+            android:textColor="@color/black"
             android:textSize="18sp"
             android:textAlignment="center"/>
 
@@ -105,7 +105,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="480dp"
             android:text="Directions"
-            android:textColor="@color/white"
+            android:textColor="@color/black"
             android:textSize="24dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -122,7 +122,7 @@
 \n \n  4. Roll the dough to a thickness of 1/2 inch.
 \n \n  5. Cut into 1/2-inch pieces and transfer to a baking sheet.
 \n \n  6. Bake in the preheated oven until dog treats are golden brown and crunchy, about 40 minutes. Let cool before serving to your dog."
-            android:textColor="@color/white"
+            android:textColor="@color/black"
             android:textSize="18sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -131,14 +131,14 @@
         <View
             android:layout_width="325dp"
             android:layout_height="370dp"
-            android:background="@drawable/titlefoodbg"
+            android:background="@color/lightyellow"
             android:layout_marginTop="1150dp"
             app:layout_constraintTop_toTopOf="@+id/dogfood2"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent" />
         <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="300dp"
+            android:layout_height="330dp"
             android:background="@drawable/dognutrition2"
             android:layout_marginTop="1170dp"
             app:layout_constraintTop_toTopOf="@+id/dogfood2"

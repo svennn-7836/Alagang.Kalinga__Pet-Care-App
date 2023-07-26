@@ -10,7 +10,7 @@
         android:id="@+id/rootLayout"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@color/red">
+        android:background="@color/lightyellow">
 
 
         <ImageView
@@ -49,7 +49,7 @@
             app:layout_constraintEnd_toEndOf="parent"
             android:layout_marginTop="160dp"
             android:text="Doggy Meatloaf with Vegetables"
-            android:textColor="@color/white"
+            android:textColor="@color/black"
             android:textSize="21dp"/>
 
         <View
@@ -69,7 +69,7 @@
             app:layout_constraintEnd_toEndOf="parent"
             android:layout_marginTop="210dp"
             android:text="Ingredients"
-            android:textColor="@color/white"
+            android:textColor="@color/black"
             android:textSize="28dp"/>
 
         <TextView
@@ -91,7 +91,7 @@
 \n * 4 medium potatoes, cubed
 \n * 3 carrots, chopped
 \n * 1 stalk celery, cubed"
-            android:textColor="@color/white"
+            android:textColor="@color/black"
             android:textSize="18sp"
             android:textAlignment="center"/>
 
@@ -133,14 +133,14 @@
 
 
         <ImageView
-            android:id="@+id/BackRed7"
+            android:id="@+id/BackRed9"
             android:layout_width="88dp"
             android:layout_height="56dp"
             android:layout_marginStart="4dp"
             android:layout_marginTop="4dp"
             android:clickable="true"
-            android:contentDescription="BackRed7"
-            android:onClick="onBackRed7Click"
+            android:contentDescription="BackRed9"
+            android:onClick="onBackRed9Click"
             android:src="@drawable/backred"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"

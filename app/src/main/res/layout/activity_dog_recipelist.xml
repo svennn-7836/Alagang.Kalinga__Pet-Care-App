@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity"
-    android:background="@color/red">
+    android:background="@color/lightyellow">
 
     <ImageView
         android:id="@+id/RecipeText"
@@ -20,7 +20,7 @@
 
     <ImageView
         android:id="@+id/RecipeBoxRed"
-        android:layout_width="410dp"
+        android:layout_width="match_parent"
         android:layout_height="375dp"
         android:contentDescription="RecipeBoxR"
         android:src="@drawable/rectangle_8"
@@ -68,7 +68,7 @@
         android:layout_width="364dp"
         android:layout_height="67dp"
         android:gravity="center"
-        android:textColor="#FFF"
+        android:textColor="@color/black"
         android:textSize="25dp"
         app:layout_constraintBottom_toBottomOf="@+id/RecipeTitle"
         app:layout_constraintEnd_toEndOf="@+id/RecipeTitle"
@@ -78,7 +78,7 @@
     <TextView
         android:id="@+id/pageIndicatorText"
         android:layout_width="138dp"
-        android:layout_height="15dp"
+        android:layout_height="20dp"
         android:layout_marginTop="380dp"
         android:textColor="#FFF"
         android:gravity="center"

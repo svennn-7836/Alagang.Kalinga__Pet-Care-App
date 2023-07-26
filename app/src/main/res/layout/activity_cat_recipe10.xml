@@ -123,14 +123,14 @@
 
 
         <ImageView
-            android:id="@+id/BackRed7"
+            android:id="@+id/BackRed10"
             android:layout_width="88dp"
             android:layout_height="56dp"
             android:layout_marginStart="4dp"
             android:layout_marginTop="4dp"
             android:clickable="true"
-            android:contentDescription="BackRed7"
-            android:onClick="onBackRed7Click"
+            android:contentDescription="BackRed10"
+            android:onClick="onBackRed10Click"
             android:src="@drawable/backred"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"

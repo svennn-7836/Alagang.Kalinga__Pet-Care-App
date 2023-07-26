@@ -78,7 +78,7 @@
     <TextView
         android:id="@+id/CatpageIndicatorText"
         android:layout_width="138dp"
-        android:layout_height="15dp"
+        android:layout_height="20dp"
         android:layout_marginTop="380dp"
         android:textColor="#FFF"
         android:gravity="center"
