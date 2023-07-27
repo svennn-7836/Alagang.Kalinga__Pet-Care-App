@@ -38,5 +38,22 @@
     <dimen name="donts2_initial_margin_top">940dp</dimen>
     <dimen name="donts3_margin_top">1256dp</dimen>
     <dimen name="donts3_initial_margin_top">980dp</dimen>
+
+    <dimen name="symp1_margin_top">496dp</dimen>
+    <dimen name="sym1_initial_margin_top">220dp</dimen>
+    <dimen name="symp2_margin_top">540dp</dimen>
+    <dimen name="symp2_initial_margin_top">264dp</dimen>
+    <dimen name="symp3_margin_top">584dp</dimen>
+    <dimen name="symp3_initial_margin_top">308dp</dimen>
+    <dimen name="symp4_margin_top">628dp</dimen>
+    <dimen name="symp4_initial_margin_top">352dp</dimen>
+
+    <dimen name="symp5_margin_top">672dp</dimen>
+    <dimen name="symp5_initial_margin_top">396dp</dimen>
+    <dimen name="symp6_margin_top">716dp</dimen>
+    <dimen name="symp6_initial_margin_top">440dp</dimen>
+    <dimen name="symp7_margin_top">760dp</dimen>
+    <dimen name="symp7_initial_margin_top">484dp</dimen>
+
     <!-- Other dimension resources -->
 </resources>

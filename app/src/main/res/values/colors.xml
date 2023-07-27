@@ -13,5 +13,7 @@
     <color name="lightblue">#92D6DD</color>
     <color name="lightyellow">#FDFD96</color>
     <color name="orangeyellow">#FFB144</color>
+    <color name="bluelightsymp">#A0CDF9</color>
+    <color name="bluedarksymp">#0069A2</color>
 
 </resources>
