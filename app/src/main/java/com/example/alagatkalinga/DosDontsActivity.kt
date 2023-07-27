@@ -2865,7 +2865,7 @@ class DosDontsActivity : AppCompatActivity() {
         // Reset the top margin of dos5 to its initial value
         val dos5LayoutParams = dos5.layoutParams as ConstraintLayout.LayoutParams
         dos5LayoutParams.topToBottom = R.id.dos4
-        dos5LayoutParams.topMargin = dos4InitialMarginTop
+        dos5LayoutParams.topMargin = dos5InitialMarginTop
         dos5.layoutParams = dos5LayoutParams
 
         // Reset the top margin of dos6 to its initial value
@@ -2989,7 +2989,7 @@ class DosDontsActivity : AppCompatActivity() {
         // Reset the top margin of dos5 to its initial value
         val dos5LayoutParams = dos5.layoutParams as ConstraintLayout.LayoutParams
         dos5LayoutParams.topToBottom = R.id.dos4
-        dos5LayoutParams.topMargin = dos4InitialMarginTop
+        dos5LayoutParams.topMargin = dos5InitialMarginTop
         dos5.layoutParams = dos5LayoutParams
 
         // Reset the top margin of dos6 to its initial value
@@ -3030,7 +3030,7 @@ class DosDontsActivity : AppCompatActivity() {
 
 
         // Set the top margin of dos13 to be 10dp below dos12
-        val dos13LayoutParams = dos14.layoutParams as ConstraintLayout.LayoutParams
+        val dos13LayoutParams = dos13.layoutParams as ConstraintLayout.LayoutParams
         dos13LayoutParams.topToBottom = R.id.dosc12
         dos13LayoutParams.topMargin = dpToPx(10)
         dos13.layoutParams = dos13LayoutParams
@@ -3111,7 +3111,7 @@ class DosDontsActivity : AppCompatActivity() {
         // Reset the top margin of dos5 to its initial value
         val dos5LayoutParams = dos5.layoutParams as ConstraintLayout.LayoutParams
         dos5LayoutParams.topToBottom = R.id.dos4
-        dos5LayoutParams.topMargin = dos4InitialMarginTop
+        dos5LayoutParams.topMargin = dos5InitialMarginTop
         dos5.layoutParams = dos5LayoutParams
 
         // Reset the top margin of dos6 to its initial value
@@ -3235,7 +3235,7 @@ class DosDontsActivity : AppCompatActivity() {
         // Reset the top margin of dos5 to its initial value
         val dos5LayoutParams = dos5.layoutParams as ConstraintLayout.LayoutParams
         dos5LayoutParams.topToBottom = R.id.dos4
-        dos5LayoutParams.topMargin = dos4InitialMarginTop
+        dos5LayoutParams.topMargin = dos5InitialMarginTop
         dos5.layoutParams = dos5LayoutParams
 
         // Reset the top margin of dos6 to its initial value
@@ -3272,7 +3272,7 @@ class DosDontsActivity : AppCompatActivity() {
         val dos11LayoutParams = dos11.layoutParams as ConstraintLayout.LayoutParams
         dos11LayoutParams.topToBottom = R.id.dos10
         dos11LayoutParams.topMargin = dos11InitialMarginTop
-        dos11.layoutParams = dos10LayoutParams
+        dos11.layoutParams = dos11LayoutParams
 
         // Reset the top margin of dos12 to its initial value
         val dos12LayoutParams = dos12.layoutParams as ConstraintLayout.LayoutParams
@@ -3357,7 +3357,7 @@ class DosDontsActivity : AppCompatActivity() {
         // Reset the top margin of dos5 to its initial value
         val dos5LayoutParams = dos5.layoutParams as ConstraintLayout.LayoutParams
         dos5LayoutParams.topToBottom = R.id.dos4
-        dos5LayoutParams.topMargin = dos4InitialMarginTop
+        dos5LayoutParams.topMargin = dos5InitialMarginTop
         dos5.layoutParams = dos5LayoutParams
 
         // Reset the top margin of dos6 to its initial value
@@ -3402,15 +3402,10 @@ class DosDontsActivity : AppCompatActivity() {
         dos12LayoutParams.topMargin = dos12InitialMarginTop
         dos12.layoutParams = dos12LayoutParams
 
-        // Reset the top margin of dos13 to its initial value
-        val dos13LayoutParams = dos13.layoutParams as ConstraintLayout.LayoutParams
-        dos13LayoutParams.topToBottom = R.id.dos12
-        dos13LayoutParams.topMargin = dos13InitialMarginTop
-        dos13.layoutParams = dos13LayoutParams
 
         // Reset the top margin of dos14 to its initial value
         val dos14LayoutParams = dos14.layoutParams as ConstraintLayout.LayoutParams
-        dos14LayoutParams.topToBottom = R.id.dos13
+        dos14LayoutParams.topToBottom = R.id.dosc13
         dos14LayoutParams.topMargin = dos14InitialMarginTop
         dos14.layoutParams = dos14LayoutParams
     }
@@ -3481,7 +3476,7 @@ class DosDontsActivity : AppCompatActivity() {
         // Reset the top margin of dos5 to its initial value
         val dos5LayoutParams = dos5.layoutParams as ConstraintLayout.LayoutParams
         dos5LayoutParams.topToBottom = R.id.dos4
-        dos5LayoutParams.topMargin = dos4InitialMarginTop
+        dos5LayoutParams.topMargin = dos5InitialMarginTop
         dos5.layoutParams = dos5LayoutParams
 
         // Reset the top margin of dos6 to its initial value
@@ -3518,7 +3513,7 @@ class DosDontsActivity : AppCompatActivity() {
         val dos11LayoutParams = dos11.layoutParams as ConstraintLayout.LayoutParams
         dos11LayoutParams.topToBottom = R.id.dos10
         dos11LayoutParams.topMargin = dos11InitialMarginTop
-        dos11.layoutParams = dos10LayoutParams
+        dos11.layoutParams = dos11LayoutParams
 
         // Reset the top margin of dos12 to its initial value
         val dos12LayoutParams = dos12.layoutParams as ConstraintLayout.LayoutParams
@@ -3604,7 +3599,7 @@ class DosDontsActivity : AppCompatActivity() {
         // Reset the top margin of dos5 to its initial value
         val dos5LayoutParams = dos5.layoutParams as ConstraintLayout.LayoutParams
         dos5LayoutParams.topToBottom = R.id.dos4
-        dos5LayoutParams.topMargin = dos4InitialMarginTop
+        dos5LayoutParams.topMargin = dos5InitialMarginTop
         dos5.layoutParams = dos5LayoutParams
 
         // Reset the top margin of dos6 to its initial value
