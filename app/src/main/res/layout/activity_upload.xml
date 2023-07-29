@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".UploadActivity">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="20dp"
+        app:cardCornerRadius="30dp"
+        app:cardElevation="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center_horizontal"
+            android:padding="20dp"
+            android:background="@drawable/lavender_border">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Upload Pet Profile"
+                android:textSize="30sp"
+                android:textAlignment="center"
+                android:textColor="@color/lavender"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/uploadimg"
+                android:id="@+id/uploadImage"
+                android:layout_marginTop="10dp"
+                android:scaleType="fitXY"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="Pet Info"
+                android:textSize="30sp"
+                android:textAlignment="center"
+                android:textColor="@color/lavender"/>
+
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="20dp"
+                android:text="Pet Name:"
+                android:textSize="18sp"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:id="@+id/uploadTitle"
+                android:background="@drawable/lavender_border"
+                android:layout_marginTop="5dp"
+                android:padding="16dp"
+                android:hint="Enter Pet Name | Ex: Milo"
+                android:gravity="start|center_vertical"
+                android:textColor="@color/lavender"/>
+
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="20dp"
+                android:text="Pet Breed:"
+                android:textSize="18sp"
+                android:layout_marginTop="20dp"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:id="@+id/uploadDesc"
+                android:background="@drawable/lavender_border"
+                android:layout_marginTop="5dp"
+                android:padding="16dp"
+                android:hint="Enter Pet Breed | Ex: Corgi"
+                android:gravity="start|center_vertical"
+                android:textColor="@color/lavender"/>
+
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="25dp"
+                android:text="Pet Type:"
+                android:textSize="18sp"
+                android:layout_marginTop="20dp"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:id="@+id/uploadPriority"
+                android:background="@drawable/lavender_border"
+                android:padding="16dp"
+                android:hint="Enter Pet Type | Ex: Dog or Cat"
+                android:gravity="start|center_vertical"
+                android:textColor="@color/lavender"/>
+
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="25dp"
+                android:text="Pet Age:"
+                android:textSize="18sp"
+                android:layout_marginTop="20dp"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:id="@+id/uploadPetAge"
+                android:background="@drawable/lavender_border"
+                android:layout_marginTop="5dp"
+                android:padding="16dp"
+                android:hint="Enter Pet Age | Ex: 5 years old"
+                android:gravity="start|center_vertical"
+                android:textColor="@color/lavender"/>
+
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="20dp"
+                android:text="Pet Gender:"
+                android:textSize="18sp"
+                android:layout_marginTop="20dp"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:id="@+id/uploadPetGender"
+                android:background="@drawable/lavender_border"
+                android:layout_marginTop="5dp"
+                android:padding="16dp"
+                android:hint="Ex: Male or Female"
+                android:gravity="start|center_vertical"
+                android:textColor="@color/lavender"/>
+
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="25dp"
+                android:text="Pet Allergies"
+                android:textSize="18sp"
+                android:layout_marginTop="20dp"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:id="@+id/uploadPetAllergies"
+                android:background="@drawable/lavender_border"
+                android:layout_marginTop="5dp"
+                android:padding="16dp"
+                android:hint="Ex: Soy, Chicken"
+                android:gravity="start|center_vertical"
+                android:textColor="@color/lavender"/>
+
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="20dp"
+                android:text="Vaccination:"
+                android:textSize="18sp"
+                android:layout_marginTop="20dp"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:id="@+id/uploadVaccination"
+                android:background="@drawable/lavender_border"
+                android:layout_marginTop="5dp"
+                android:padding="16dp"
+                android:hint="Ex: Enter Yes or No | Date"
+                android:gravity="start|center_vertical"
+                android:textColor="@color/lavender"/>
+
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="20dp"
+                android:text="Neutered:"
+                android:textSize="18sp"
+                android:layout_marginTop="20dp"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:id="@+id/uploadNeutered"
+                android:background="@drawable/lavender_border"
+                android:layout_marginTop="5dp"
+                android:padding="16dp"
+                android:hint="Enter Yes or No "
+                android:gravity="start|center_vertical"
+                android:textColor="@color/lavender"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="15dp"
+                android:text="Owner Info"
+                android:textSize="30sp"
+                android:textAlignment="center"
+                android:textColor="@color/lavender"/>
+
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="20dp"
+                android:text="Name:"
+                android:textSize="18sp"
+                android:layout_marginTop="20dp"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:id="@+id/uploadOwnerName"
+                android:background="@drawable/lavender_border"
+                android:layout_marginTop="5dp"
+                android:padding="16dp"
+                android:hint="Enter Pet Owner's Name"
+                android:gravity="start|center_vertical"
+                android:textColor="@color/lavender"/>
+
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="20dp"
+                android:text="Address:"
+                android:textSize="18sp"
+                android:layout_marginTop="20dp"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:id="@+id/uploadOwnerAddress"
+                android:background="@drawable/lavender_border"
+                android:layout_marginTop="5dp"
+                android:padding="16dp"
+                android:hint="Enter Pet Owner's Address"
+                android:gravity="start|center_vertical"
+                android:textColor="@color/lavender"/>
+
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="20dp"
+                android:text="Phone No:"
+                android:textSize="18sp"
+                android:layout_marginTop="20dp"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:id="@+id/uploadOwnerNumber"
+                android:background="@drawable/lavender_border"
+                android:layout_marginTop="5dp"
+                android:padding="16dp"
+                android:hint="Enter Pet Owner's Phone No"
+                android:gravity="start|center_vertical"
+                android:textColor="@color/lavender"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="15dp"
+                android:text="Vet Info"
+                android:textSize="30sp"
+                android:textAlignment="center"
+                android:textColor="@color/lavender"/>
+
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="20dp"
+                android:text="Name:"
+                android:textSize="18sp"
+                android:layout_marginTop="20dp"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:id="@+id/uploadVetName"
+                android:background="@drawable/lavender_border"
+                android:layout_marginTop="5dp"
+                android:padding="16dp"
+                android:hint="Enter Pet Vet's Name"
+                android:gravity="start|center_vertical"
+                android:textColor="@color/lavender"/>
+
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="20dp"
+                android:text="Address:"
+                android:textSize="18sp"
+                android:layout_marginTop="20dp"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:id="@+id/uploadVetAddress"
+                android:background="@drawable/lavender_border"
+                android:layout_marginTop="5dp"
+                android:padding="16dp"
+                android:hint="Enter Pet Vet's Address"
+                android:gravity="start|center_vertical"
+                android:textColor="@color/lavender"/>
+
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="20dp"
+                android:text="Phone No:"
+                android:textSize="18sp"
+                android:layout_marginTop="20dp"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:id="@+id/uploadVetNumber"
+                android:background="@drawable/lavender_border"
+                android:layout_marginTop="5dp"
+                android:padding="16dp"
+                android:hint="Enter Pet Vet's Phone No"
+                android:gravity="start|center_vertical"
+                android:textColor="@color/lavender"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:text="Save"
+                android:id="@+id/saveButton"
+                android:textSize="18sp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="30dp"
+                app:cornerRadius = "20dp"/>
+
+
+
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</ScrollView>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "146127545936",
+    "project_id": "alaga-t-kalinga",
+    "storage_bucket": "alaga-t-kalinga.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:146127545936:android:d2a102217c206cf7675355",
+        "android_client_info": {
+          "package_name": "com.example.alagatkalinga"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "146127545936-7rt6rh38bkgln0entv5pke3serj3p1m3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCO0hz9yoKe_vWx3jkRnzN4FjzRztd-Xio"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "146127545936-7rt6rh38bkgln0entv5pke3serj3p1m3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

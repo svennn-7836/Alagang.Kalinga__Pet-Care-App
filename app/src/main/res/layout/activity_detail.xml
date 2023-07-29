@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".DetailActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center_horizontal"
+        android:padding="20dp"
+        android:background="@drawable/lavender_border">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pet Profile"
+            android:layout_marginTop="14dp"
+            android:textSize="24sp"
+            android:layout_gravity="center"
+            android:textColor="@color/lavender"
+            android:layout_marginBottom="12dp"/>
+        <ImageView
+            android:layout_width="400dp"
+            android:layout_height="200dp"
+            android:id="@+id/detailImage"
+            android:padding="8dp"
+            android:layout_gravity="center"
+            android:src="@drawable/uploadimg"
+            android:scaleType="fitXY" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pet Name:"
+            android:layout_marginTop="14dp"
+            android:textSize="18sp"
+            android:textColor="@color/lavender"
+            android:layout_marginBottom="5dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:background="@drawable/lavender_border"
+            android:text="Pet Name"
+            android:layout_gravity="center"
+            android:id="@+id/detailTitle"
+            android:textColor="@color/black"
+            android:textSize="18sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pet Breed:"
+            android:layout_marginTop="14dp"
+            android:textSize="18sp"
+            android:textColor="@color/lavender"
+            android:layout_marginBottom="5dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:background="@drawable/lavender_border"
+            android:text="Pet Breed"
+            android:layout_gravity="center"
+            android:id="@+id/detailPriority"
+            android:textColor="@color/lavender"
+            android:textSize="18sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pet Type:"
+            android:layout_marginTop="14dp"
+            android:textSize="18sp"
+            android:textColor="@color/lavender"
+            android:layout_marginBottom="5dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:background="@drawable/lavender_border"
+            android:text="Pet Type"
+            android:layout_gravity="center"
+            android:id="@+id/detailDesc"
+            android:textColor="@color/lavender"
+            android:textSize="18sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pet Age:"
+            android:layout_marginTop="14dp"
+            android:textSize="18sp"
+            android:textColor="@color/lavender"
+            android:layout_marginBottom="5dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:background="@drawable/lavender_border"
+            android:text="Pet Age"
+            android:layout_gravity="center"
+            android:id="@+id/detailPetAge"
+            android:textColor="@color/lavender"
+            android:textSize="18sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pet Gender:"
+            android:layout_marginTop="14dp"
+            android:textSize="18sp"
+            android:textColor="@color/lavender"
+            android:layout_marginBottom="5dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:background="@drawable/lavender_border"
+            android:text="Pet Gender"
+            android:layout_gravity="center"
+            android:id="@+id/detailPetGender"
+            android:textColor="@color/lavender"
+            android:textSize="18sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pet Allergies:"
+            android:layout_marginTop="14dp"
+            android:textSize="18sp"
+            android:textColor="@color/lavender"
+            android:layout_marginBottom="5dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:background="@drawable/lavender_border"
+            android:text="Pet Allergies"
+            android:layout_gravity="center"
+            android:id="@+id/detailPetAllergies"
+            android:textColor="@color/lavender"
+            android:textSize="18sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Vaccination:"
+            android:layout_marginTop="14dp"
+            android:textSize="18sp"
+            android:textColor="@color/lavender"
+            android:layout_marginBottom="5dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:background="@drawable/lavender_border"
+            android:text="Vaccination"
+            android:layout_gravity="center"
+            android:id="@+id/detailVaccination"
+            android:textColor="@color/lavender"
+            android:textSize="18sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Neutered:"
+            android:layout_marginTop="14dp"
+            android:textSize="18sp"
+            android:textColor="@color/lavender"
+            android:layout_marginBottom="5dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:background="@drawable/lavender_border"
+            android:text="Neutered"
+            android:layout_gravity="center"
+            android:id="@+id/detailNeutered"
+            android:textColor="@color/lavender"
+            android:textSize="18sp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:padding="20dp"
+            android:text="Owner Info"
+            android:textAlignment="center"
+            android:layout_gravity="center"
+            android:textColor="@color/lavender"
+            android:textSize="24dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Owner's Name:"
+            android:layout_marginTop="14dp"
+            android:textSize="18sp"
+            android:textColor="@color/lavender"
+            android:layout_marginBottom="5dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:background="@drawable/lavender_border"
+            android:text="Owner's Name"
+            android:layout_gravity="center"
+            android:id="@+id/detailOwnerName"
+            android:textColor="@color/lavender"
+            android:textSize="18sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Owner's Address:"
+            android:layout_marginTop="14dp"
+            android:textSize="18sp"
+            android:textColor="@color/lavender"
+            android:layout_marginBottom="5dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:background="@drawable/lavender_border"
+            android:text="Owner's Address"
+            android:layout_gravity="center"
+            android:id="@+id/detailOwnerAddress"
+            android:textColor="@color/lavender"
+            android:textSize="18sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Owner's Number:"
+            android:layout_marginTop="14dp"
+            android:textSize="18sp"
+            android:textColor="@color/lavender"
+            android:layout_marginBottom="5dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:background="@drawable/lavender_border"
+            android:text="Owner's Number"
+            android:layout_gravity="center"
+            android:id="@+id/detailOwnerNumber"
+            android:textColor="@color/lavender"
+            android:textSize="18sp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:padding="20dp"
+            android:text="Vet Info"
+            android:textAlignment="center"
+            android:layout_gravity="center"
+            android:textColor="@color/lavender"
+            android:textSize="24dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Vet's Name:"
+            android:layout_marginTop="14dp"
+            android:textSize="18sp"
+            android:textColor="@color/lavender"
+            android:layout_marginBottom="5dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:background="@drawable/lavender_border"
+            android:text="Vet's Name"
+            android:layout_gravity="center"
+            android:id="@+id/detailVetName"
+            android:textColor="@color/lavender"
+            android:textSize="18sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Vet's Address:"
+            android:layout_marginTop="14dp"
+            android:textSize="18sp"
+            android:textColor="@color/lavender"
+            android:layout_marginBottom="5dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:background="@drawable/lavender_border"
+            android:text="Vet's Address"
+            android:layout_gravity="center"
+            android:id="@+id/detailVetAddress"
+            android:textColor="@color/lavender"
+            android:textSize="18sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Vet's Number:"
+            android:layout_marginTop="14dp"
+            android:textSize="18sp"
+            android:textColor="@color/lavender"
+            android:layout_marginBottom="5dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:background="@drawable/lavender_border"
+            android:text="Vet's Number"
+            android:layout_gravity="center"
+            android:id="@+id/detailVetNumber"
+            android:textColor="@color/lavender"
+            android:textSize="18sp"/>
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Delete"
+            android:id="@+id/deleteButton"
+            android:textSize="18sp"
+            android:layout_gravity="center"
+            android:layout_marginTop="16dp"
+            app:cornerRadius="20dp"/>
+
+    </LinearLayout>
+</ScrollView>
