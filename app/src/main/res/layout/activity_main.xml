@@ -10,12 +10,16 @@
         android:id="@+id/openingImageView"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:src="@drawable/opening_screen"
-        android:scaleType="centerCrop" />
+        android:scaleType="centerCrop"
+        android:src="@drawable/opening_screen2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/continueButton"
-        android:layout_width="400dp"
+        android:layout_width="411dp"
         android:layout_height="60dp"
         android:layout_marginBottom="16dp"
         android:background="@color/darkpurple"

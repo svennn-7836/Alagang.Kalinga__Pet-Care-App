@@ -50,6 +50,7 @@ class DosDontsActivity : AppCompatActivity() {
     private lateinit var dosw14: ImageView
     private lateinit var dosc14: ImageView
 
+
     private var dos2InitialMarginTop = 0
     private var dos3InitialMarginTop = 0
     private var dos4InitialMarginTop = 0
@@ -68,10 +69,7 @@ class DosDontsActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_dosdonts_activity)
 
-        val backButton: ImageView = findViewById(R.id.BackGreen1)
-        backButton.setOnClickListener {
-            onBackPressed()
-        }
+
 
         // Initialize the ImageView elements
         dos1 = findViewById(R.id.dos1)
@@ -158,6 +156,7 @@ class DosDontsActivity : AppCompatActivity() {
         dos14InitialMarginTop = dos14LayoutParams.topMargin
 
 
+
         // Set initial visibility
         dos1.visibility = View.VISIBLE
         dosw1.visibility = View.INVISIBLE
@@ -201,6 +200,7 @@ class DosDontsActivity : AppCompatActivity() {
         dos14.visibility = View.VISIBLE
         dosw14.visibility = View.INVISIBLE
         dosc14.visibility = View.INVISIBLE
+
     }
 
     // Click event handler for dos1
@@ -250,6 +250,7 @@ class DosDontsActivity : AppCompatActivity() {
         dos14.visibility = View.VISIBLE
         dosw14.visibility = View.INVISIBLE
         dosc14.visibility = View.INVISIBLE
+
 
         // Set the top margin of dos2 to be 10dp below dosc1
         val dos2LayoutParams = dos2.layoutParams as ConstraintLayout.LayoutParams
@@ -328,7 +329,6 @@ class DosDontsActivity : AppCompatActivity() {
         dos14LayoutParams.topToBottom = R.id.dos13
         dos14LayoutParams.topMargin = dpToPx(10)
         dos14.layoutParams = dos14LayoutParams
-
 
     }
 
@@ -455,6 +455,8 @@ class DosDontsActivity : AppCompatActivity() {
         dos14LayoutParams.topToBottom = R.id.dos13
         dos14LayoutParams.topMargin = dos14InitialMarginTop
         dos14.layoutParams = dos14LayoutParams
+
+
     }
 
     // Click event handler for dos2
@@ -576,6 +578,8 @@ class DosDontsActivity : AppCompatActivity() {
         dos14LayoutParams.topToBottom = R.id.dos13
         dos14LayoutParams.topMargin = dpToPx(10)
         dos14.layoutParams = dos14LayoutParams
+
+
     }
 
     // Click event handler for dosw2
@@ -625,6 +629,7 @@ class DosDontsActivity : AppCompatActivity() {
         dos14.visibility = View.VISIBLE
         dosw14.visibility = View.INVISIBLE
         dosc14.visibility = View.INVISIBLE
+
 
         // Reset the top margin of dos2 to its initial value
         val dos2LayoutParams = dos2.layoutParams as ConstraintLayout.LayoutParams
@@ -703,6 +708,8 @@ class DosDontsActivity : AppCompatActivity() {
         dos14LayoutParams.topToBottom = R.id.dos13
         dos14LayoutParams.topMargin = dos14InitialMarginTop
         dos14.layoutParams = dos14LayoutParams
+
+
     }
     // Click event handler for dos3
     fun onDos3Click(view: View) {
@@ -823,6 +830,8 @@ class DosDontsActivity : AppCompatActivity() {
         dos14LayoutParams.topToBottom = R.id.dos13
         dos14LayoutParams.topMargin = dpToPx(10)
         dos14.layoutParams = dos14LayoutParams
+
+
     }
 
     // Click event handler for dosw3
@@ -951,6 +960,7 @@ class DosDontsActivity : AppCompatActivity() {
         dos14LayoutParams.topMargin = dos14InitialMarginTop
         dos14.layoutParams = dos14LayoutParams
 
+
     }
     // Click event handler for dos4
     fun onDos4Click(view: View) {
@@ -1073,6 +1083,7 @@ class DosDontsActivity : AppCompatActivity() {
         dos14LayoutParams.topToBottom = R.id.dos13
         dos14LayoutParams.topMargin = dpToPx(10)
         dos14.layoutParams = dos14LayoutParams
+
     }
 
     // Click event handler for dosw4
@@ -1200,6 +1211,7 @@ class DosDontsActivity : AppCompatActivity() {
         dos14LayoutParams.topToBottom = R.id.dos13
         dos14LayoutParams.topMargin = dos14InitialMarginTop
         dos14.layoutParams = dos14LayoutParams
+
     }
 
     // Click event handler for dos3
@@ -1249,6 +1261,7 @@ class DosDontsActivity : AppCompatActivity() {
         dos14.visibility = View.VISIBLE
         dosw14.visibility = View.INVISIBLE
         dosc14.visibility = View.INVISIBLE
+
 
         // Reset the top margin of dos2 to its initial value
         val dos2LayoutParams = dos2.layoutParams as ConstraintLayout.LayoutParams
@@ -1321,6 +1334,7 @@ class DosDontsActivity : AppCompatActivity() {
         dos14LayoutParams.topToBottom = R.id.dos13
         dos14LayoutParams.topMargin = dpToPx(10)
         dos14.layoutParams = dos14LayoutParams
+
     }
 
     // Click event handler for dosw4
@@ -1370,6 +1384,7 @@ class DosDontsActivity : AppCompatActivity() {
         dos14.visibility = View.VISIBLE
         dosw14.visibility = View.INVISIBLE
         dosc14.visibility = View.INVISIBLE
+
 
         // Reset the top margin of dos2 to its initial value
         val dos2LayoutParams = dos2.layoutParams as ConstraintLayout.LayoutParams
@@ -1448,6 +1463,8 @@ class DosDontsActivity : AppCompatActivity() {
         dos14LayoutParams.topToBottom = R.id.dos13
         dos14LayoutParams.topMargin = dos14InitialMarginTop
         dos14.layoutParams = dos14LayoutParams
+
+
     }
 
     // Click event handler for dos6
@@ -1497,6 +1514,7 @@ class DosDontsActivity : AppCompatActivity() {
         dos14.visibility = View.VISIBLE
         dosw14.visibility = View.INVISIBLE
         dosc14.visibility = View.INVISIBLE
+
 
         // Reset the top margin of dos2 to its initial value
         val dos2LayoutParams = dos2.layoutParams as ConstraintLayout.LayoutParams
@@ -1571,6 +1589,7 @@ class DosDontsActivity : AppCompatActivity() {
         dos14LayoutParams.topToBottom = R.id.dos13
         dos14LayoutParams.topMargin = dpToPx(10)
         dos14.layoutParams = dos14LayoutParams
+
     }
 
     // Click event handler for dosw6
@@ -1620,6 +1639,7 @@ class DosDontsActivity : AppCompatActivity() {
         dos14.visibility = View.VISIBLE
         dosw14.visibility = View.INVISIBLE
         dosc14.visibility = View.INVISIBLE
+
 
         // Reset the top margin of dos2 to its initial value
         val dos2LayoutParams = dos2.layoutParams as ConstraintLayout.LayoutParams
@@ -1698,6 +1718,8 @@ class DosDontsActivity : AppCompatActivity() {
         dos14LayoutParams.topToBottom = R.id.dos13
         dos14LayoutParams.topMargin = dos14InitialMarginTop
         dos14.layoutParams = dos14LayoutParams
+
+
     }
     // Click event handler for dos7
     fun onDos7Click(view: View) {
@@ -1746,6 +1768,7 @@ class DosDontsActivity : AppCompatActivity() {
         dos14.visibility = View.VISIBLE
         dosw14.visibility = View.INVISIBLE
         dosc14.visibility = View.INVISIBLE
+
 
         // Reset the top margin of dos2 to its initial value
         val dos2LayoutParams = dos2.layoutParams as ConstraintLayout.LayoutParams
@@ -1818,6 +1841,7 @@ class DosDontsActivity : AppCompatActivity() {
         dos14LayoutParams.topToBottom = R.id.dos13
         dos14LayoutParams.topMargin = dpToPx(10)
         dos14.layoutParams = dos14LayoutParams
+
     }
 
     // Click event handler for dosw7
@@ -1867,6 +1891,7 @@ class DosDontsActivity : AppCompatActivity() {
         dos14.visibility = View.VISIBLE
         dosw14.visibility = View.INVISIBLE
         dosc14.visibility = View.INVISIBLE
+
 
         // Reset the top margin of dos2 to its initial value
         val dos2LayoutParams = dos2.layoutParams as ConstraintLayout.LayoutParams
@@ -1945,6 +1970,8 @@ class DosDontsActivity : AppCompatActivity() {
         dos14LayoutParams.topToBottom = R.id.dos13
         dos14LayoutParams.topMargin = dos14InitialMarginTop
         dos14.layoutParams = dos14LayoutParams
+
+
     }
 
     // Click event handler for dos8
@@ -1991,6 +2018,7 @@ class DosDontsActivity : AppCompatActivity() {
         dos14.visibility = View.VISIBLE
         dosw14.visibility = View.INVISIBLE
         dosc14.visibility = View.INVISIBLE
+
 
         // Reset the top margin of dos2 to its initial value
         val dos2LayoutParams = dos2.layoutParams as ConstraintLayout.LayoutParams
@@ -2063,6 +2091,8 @@ class DosDontsActivity : AppCompatActivity() {
         dos14LayoutParams.topToBottom = R.id.dos13
         dos14LayoutParams.topMargin = dpToPx(10)
         dos14.layoutParams = dos14LayoutParams
+
+
     }
 
     // Click event handler for dosw8
@@ -2108,6 +2138,7 @@ class DosDontsActivity : AppCompatActivity() {
         dos14.visibility = View.VISIBLE
         dosw14.visibility = View.INVISIBLE
         dosc14.visibility = View.INVISIBLE
+
 
         // Reset the top margin of dos2 to its initial value
         val dos2LayoutParams = dos2.layoutParams as ConstraintLayout.LayoutParams
@@ -2186,6 +2217,8 @@ class DosDontsActivity : AppCompatActivity() {
         dos14LayoutParams.topToBottom = R.id.dos13
         dos14LayoutParams.topMargin = dpToPx(10)
         dos14.layoutParams = dos14LayoutParams
+
+
     }
 
     // Click event handler for dos9
@@ -2232,6 +2265,7 @@ class DosDontsActivity : AppCompatActivity() {
         dos14.visibility = View.VISIBLE
         dosw14.visibility = View.INVISIBLE
         dosc14.visibility = View.INVISIBLE
+
 
         // Reset the top margin of dos2 to its initial value
         val dos2LayoutParams = dos2.layoutParams as ConstraintLayout.LayoutParams
@@ -2305,6 +2339,7 @@ class DosDontsActivity : AppCompatActivity() {
         dos14LayoutParams.topToBottom = R.id.dos13
         dos14LayoutParams.topMargin = dpToPx(10)
         dos14.layoutParams = dos14LayoutParams
+
     }
 
     // Click event handler for dosw9
@@ -2354,6 +2389,7 @@ class DosDontsActivity : AppCompatActivity() {
         dos14.visibility = View.VISIBLE
         dosw14.visibility = View.INVISIBLE
         dosc14.visibility = View.INVISIBLE
+
 
         // Reset the top margin of dos2 to its initial value
         val dos2LayoutParams = dos2.layoutParams as ConstraintLayout.LayoutParams
@@ -2432,6 +2468,7 @@ class DosDontsActivity : AppCompatActivity() {
         dos14LayoutParams.topToBottom = R.id.dos13
         dos14LayoutParams.topMargin = dos14InitialMarginTop
         dos14.layoutParams = dos14LayoutParams
+
     }
     // Click event handler for dos10
     fun onDos10Click(view: View) {
@@ -2477,6 +2514,7 @@ class DosDontsActivity : AppCompatActivity() {
         dos14.visibility = View.VISIBLE
         dosw14.visibility = View.INVISIBLE
         dosc14.visibility = View.INVISIBLE
+
 
         // Reset the top margin of dos2 to its initial value
         val dos2LayoutParams = dos2.layoutParams as ConstraintLayout.LayoutParams
@@ -2549,6 +2587,7 @@ class DosDontsActivity : AppCompatActivity() {
         dos14LayoutParams.topToBottom = R.id.dos13
         dos14LayoutParams.topMargin = dpToPx(10)
         dos14.layoutParams = dos14LayoutParams
+
     }
 
     // Click event handler for dosw10
@@ -2598,6 +2637,7 @@ class DosDontsActivity : AppCompatActivity() {
         dos14.visibility = View.VISIBLE
         dosw14.visibility = View.INVISIBLE
         dosc14.visibility = View.INVISIBLE
+
 
         // Reset the top margin of dos2 to its initial value
         val dos2LayoutParams = dos2.layoutParams as ConstraintLayout.LayoutParams
@@ -2676,6 +2716,7 @@ class DosDontsActivity : AppCompatActivity() {
         dos14LayoutParams.topToBottom = R.id.dos13
         dos14LayoutParams.topMargin = dos14InitialMarginTop
         dos14.layoutParams = dos14LayoutParams
+
     }
     // Click event handler for dos11
     fun onDos11Click(view: View) {
@@ -2721,6 +2762,7 @@ class DosDontsActivity : AppCompatActivity() {
         dos14.visibility = View.VISIBLE
         dosw14.visibility = View.INVISIBLE
         dosc14.visibility = View.INVISIBLE
+
 
         // Reset the top margin of dos2 to its initial value
         val dos2LayoutParams = dos2.layoutParams as ConstraintLayout.LayoutParams
@@ -2794,6 +2836,8 @@ class DosDontsActivity : AppCompatActivity() {
         dos14LayoutParams.topToBottom = R.id.dos13
         dos14LayoutParams.topMargin = dpToPx(10)
         dos14.layoutParams = dos14LayoutParams
+
+
     }
 
     // Click event handler for dosw11
@@ -2843,6 +2887,7 @@ class DosDontsActivity : AppCompatActivity() {
         dos14.visibility = View.VISIBLE
         dosw14.visibility = View.INVISIBLE
         dosc14.visibility = View.INVISIBLE
+
 
         // Reset the top margin of dos2 to its initial value
         val dos2LayoutParams = dos2.layoutParams as ConstraintLayout.LayoutParams
@@ -2921,6 +2966,8 @@ class DosDontsActivity : AppCompatActivity() {
         dos14LayoutParams.topToBottom = R.id.dos13
         dos14LayoutParams.topMargin = dos14InitialMarginTop
         dos14.layoutParams = dos14LayoutParams
+
+
     }
 
     // Click event handler for dos12
@@ -2967,6 +3014,7 @@ class DosDontsActivity : AppCompatActivity() {
         dos14.visibility = View.VISIBLE
         dosw14.visibility = View.INVISIBLE
         dosc14.visibility = View.INVISIBLE
+
 
         // Reset the top margin of dos2 to its initial value
         val dos2LayoutParams = dos2.layoutParams as ConstraintLayout.LayoutParams
@@ -3040,6 +3088,7 @@ class DosDontsActivity : AppCompatActivity() {
         dos14LayoutParams.topToBottom = R.id.dos13
         dos14LayoutParams.topMargin = dpToPx(10)
         dos14.layoutParams = dos14LayoutParams
+
     }
 
     // Click event handler for dosw12
@@ -3089,6 +3138,7 @@ class DosDontsActivity : AppCompatActivity() {
         dos14.visibility = View.VISIBLE
         dosw14.visibility = View.INVISIBLE
         dosc14.visibility = View.INVISIBLE
+
 
         // Reset the top margin of dos2 to its initial value
         val dos2LayoutParams = dos2.layoutParams as ConstraintLayout.LayoutParams
@@ -3167,6 +3217,7 @@ class DosDontsActivity : AppCompatActivity() {
         dos14LayoutParams.topToBottom = R.id.dos13
         dos14LayoutParams.topMargin = dos14InitialMarginTop
         dos14.layoutParams = dos14LayoutParams
+
     }
 
     // Click event handler for dos13
@@ -3213,6 +3264,7 @@ class DosDontsActivity : AppCompatActivity() {
         dos14.visibility = View.VISIBLE
         dosw14.visibility = View.INVISIBLE
         dosc14.visibility = View.INVISIBLE
+
 
         // Reset the top margin of dos2 to its initial value
         val dos2LayoutParams = dos2.layoutParams as ConstraintLayout.LayoutParams
@@ -3285,6 +3337,8 @@ class DosDontsActivity : AppCompatActivity() {
         dos14LayoutParams.topToBottom = R.id.dosc13
         dos14LayoutParams.topMargin = dpToPx(10)
         dos14.layoutParams = dos14LayoutParams
+
+
     }
 
 
@@ -3335,6 +3389,7 @@ class DosDontsActivity : AppCompatActivity() {
         dos14.visibility = View.VISIBLE
         dosw14.visibility = View.INVISIBLE
         dosc14.visibility = View.INVISIBLE
+
 
         // Reset the top margin of dos2 to its initial value
         val dos2LayoutParams = dos2.layoutParams as ConstraintLayout.LayoutParams
@@ -3408,6 +3463,8 @@ class DosDontsActivity : AppCompatActivity() {
         dos14LayoutParams.topToBottom = R.id.dosc13
         dos14LayoutParams.topMargin = dos14InitialMarginTop
         dos14.layoutParams = dos14LayoutParams
+
+
     }
 
     // Click event handler for dos14
@@ -3454,6 +3511,7 @@ class DosDontsActivity : AppCompatActivity() {
         dos14.visibility = View.INVISIBLE
         dosw14.visibility = View.VISIBLE
         dosc14.visibility = View.VISIBLE
+
 
         // Reset the top margin of dos2 to its initial value
         val dos2LayoutParams = dos2.layoutParams as ConstraintLayout.LayoutParams
@@ -3528,6 +3586,8 @@ class DosDontsActivity : AppCompatActivity() {
         dos13.layoutParams = dos13LayoutParams
 
 
+
+
     }
 
     // Click event handler for dosw14
@@ -3577,6 +3637,7 @@ class DosDontsActivity : AppCompatActivity() {
         dos14.visibility = View.VISIBLE
         dosw14.visibility = View.INVISIBLE
         dosc14.visibility = View.INVISIBLE
+
 
         // Reset the top margin of dos2 to its initial value
         val dos2LayoutParams = dos2.layoutParams as ConstraintLayout.LayoutParams
@@ -3655,6 +3716,8 @@ class DosDontsActivity : AppCompatActivity() {
         dos14LayoutParams.topToBottom = R.id.dos13
         dos14LayoutParams.topMargin = dos14InitialMarginTop
         dos14.layoutParams = dos14LayoutParams
+
+
     }
 
     // Utility function to convert dp to pixels

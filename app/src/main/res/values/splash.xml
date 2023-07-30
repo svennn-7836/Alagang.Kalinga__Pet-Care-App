@@ -2,7 +2,7 @@
 <resources>
     <style name="Theme.MyApp.MySplash" parent="Theme.SplashScreen">
         <item name="windowSplashScreenBackground">#FFFFFF</item>
-        <item name="windowSplashScreenAnimatedIcon">@drawable/splash</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/splash1</item>
         <item name="postSplashScreenTheme">@style/Theme.AlagatKalinga</item>
 
     </style>

@@ -5,50 +5,50 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/lightpurtple">
+    android:background="@color/green">
 
     <ImageView
-        android:id="@+id/selectcategoryImage"
+        android:id="@+id/DDCategory"
         android:layout_width="match_parent"
         android:layout_height="71dp"
         android:layout_marginTop="40dp"
         android:contentDescription="category"
-        android:src="@drawable/select_category_for_food_recipes"
+        android:src="@drawable/ddcategory"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         tools:ignore="ContentDescription" />
 
     <ImageView
-        android:id="@+id/CatsImage"
+        android:id="@+id/dontscategory"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:clickable="true"
         android:contentDescription="Cats"
         android:onClick="onCatsClick"
-        android:src="@drawable/cats"
-        android:layout_marginTop="290dp"
+        android:src="@drawable/dontscategory"
+        android:layout_marginTop="285dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/selectcategoryImage"
+        app:layout_constraintTop_toBottomOf="@+id/DDCategory"
         app:layout_constraintVertical_bias="0.931"
         app:layout_constraintVertical_weight="5"
         tools:ignore="ContentDescription" />
 
     <ImageView
-        android:id="@+id/dogsImage"
+        android:id="@+id/doscategory"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:clickable="true"
         android:contentDescription="Dogs"
-        android:onClick="ondogsClick"
-        android:src="@drawable/dogs"
-        android:layout_marginTop="40dp"
+        android:onClick="ondoscategoryClick"
+        android:src="@drawable/doscategory"
+        android:layout_marginTop="10dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/selectcategoryImage"
+        app:layout_constraintTop_toBottomOf="@+id/DDCategory"
         app:layout_constraintVertical_weight="5"
         tools:ignore="ContentDescription" />
 

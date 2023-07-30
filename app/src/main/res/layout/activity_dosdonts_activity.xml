@@ -14,21 +14,6 @@
         tools:context=".MainActivity">
 
         <ImageView
-            android:id="@+id/BackGreen1"
-            android:layout_width="70dp"
-            android:layout_height="56dp"
-            android:layout_marginStart="4dp"
-            android:layout_marginTop="4dp"
-            android:clickable="true"
-            android:contentDescription="BackGreen1"
-            android:onClick="onBackGreen1Click"
-            android:src="@drawable/backgreen"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_weight="5"
-            tools:ignore="ContentDescription" />
-
-        <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="64dp"
@@ -535,6 +520,8 @@
             app:layout_constraintTop_toTopOf="parent"
             android:visibility="invisible"
             android:onClick="onDosw14Click" />
+
+
 
 
         <!-- Add the remaining ImageView elements for dos3, dos4, dos5, etc. -->

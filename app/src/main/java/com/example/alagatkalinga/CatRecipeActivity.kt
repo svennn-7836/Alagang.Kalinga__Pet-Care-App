@@ -17,10 +17,6 @@ class CatRecipeActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_cat_recipelist)
 
-        val backButton: ImageView = findViewById(R.id.CatBackRed00)
-        backButton.setOnClickListener {
-            onBackPressed()
-        }
 
         viewPager = findViewById(R.id.catpager)
         recipeTitleText = findViewById(R.id.CatrecipeTitleText)

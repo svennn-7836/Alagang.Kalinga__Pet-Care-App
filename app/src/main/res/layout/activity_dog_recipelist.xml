@@ -9,9 +9,9 @@
 
     <ImageView
         android:id="@+id/RecipeText"
-        android:layout_width="409dp"
+        android:layout_width="match_parent"
         android:layout_height="74dp"
-        android:layout_marginTop="28dp"
+        android:layout_marginTop="40dp"
         android:contentDescription="RecipeText"
         android:src="@drawable/recipe_text"
         app:layout_constraintEnd_toEndOf="parent"
@@ -26,18 +26,17 @@
         android:src="@drawable/rectangle_8"
         app:layout_constraintTop_toBottomOf="@id/RecipeText"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintBottom_toTopOf="@id/RecipeTitle" />
+        app:layout_constraintEnd_toEndOf="parent" />
     <ImageView
         android:id="@+id/RecipeBoxLRed"
         android:layout_width="360dp"
         android:layout_height="345dp"
         android:contentDescription="RecipeBoxLR"
         android:src="@drawable/rectangle_16"
-        app:layout_constraintBottom_toTopOf="@id/RecipeTitle"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/RecipeText" />
+        app:layout_constraintTop_toTopOf="@id/RecipeBoxRed"
+        app:layout_constraintEnd_toEndOf="@id/RecipeBoxRed"
+        app:layout_constraintStart_toStartOf="@id/RecipeBoxRed"
+        app:layout_constraintBottom_toBottomOf="@id/RecipeBoxRed"/>
 
     <androidx.viewpager.widget.ViewPager
         android:id="@+id/pager"
@@ -54,10 +53,9 @@
         android:id="@+id/RecipeTitle"
         android:layout_width="402dp"
         android:layout_height="131dp"
-        android:layout_marginBottom="80dp"
+        android:layout_marginBottom="10dp"
         android:contentDescription="RecipeText"
         android:src="@drawable/rectangle_17"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.487"
         app:layout_constraintStart_toStartOf="parent"
@@ -67,11 +65,12 @@
         android:id="@+id/recipeTitleText"
         android:layout_width="364dp"
         android:layout_height="67dp"
+        android:layout_marginTop="32dp"
         android:gravity="center"
         android:textColor="@color/black"
         android:textSize="25dp"
-        app:layout_constraintBottom_toBottomOf="@+id/RecipeTitle"
         app:layout_constraintEnd_toEndOf="@+id/RecipeTitle"
+        app:layout_constraintHorizontal_bias="0.473"
         app:layout_constraintStart_toStartOf="@+id/RecipeTitle"
         app:layout_constraintTop_toTopOf="@+id/RecipeTitle" />
 
@@ -79,29 +78,12 @@
         android:id="@+id/pageIndicatorText"
         android:layout_width="138dp"
         android:layout_height="20dp"
-        android:layout_marginTop="380dp"
+        android:layout_marginTop="5dp"
         android:textColor="@color/black"
         android:gravity="center"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@id/RecipeBoxRed" />
-
-    <ImageView
-        android:id="@+id/BackRed0"
-        android:layout_width="88dp"
-        android:layout_height="56dp"
-        android:layout_marginTop="40dp"
-        android:clickable="true"
-        android:contentDescription="BackRed0"
-        android:onClick="onBackRed0Click"
-        android:src="@drawable/backred"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.049"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@id/recipeTitleText"
-        app:layout_constraintVertical_weight="5"
-        tools:ignore="ContentDescription" />
+        app:layout_constraintTop_toBottomOf="@id/RecipeBoxRed" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

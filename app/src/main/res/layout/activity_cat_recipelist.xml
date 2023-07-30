@@ -86,23 +86,5 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@id/CatRecipeBoxRed" />
 
-    <ImageView
-        android:id="@+id/CatBackRed00"
-        android:layout_width="88dp"
-        android:layout_height="56dp"
-        android:layout_marginStart="12dp"
-        android:clickable="true"
-        android:contentDescription="CatBackRed00"
-        android:onClick="onBackRed00Click"
-        android:src="@drawable/backred"
-        android:layout_marginTop="40dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.049"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@id/CatrecipeTitleText"
-        app:layout_constraintVertical_weight="5"
-        tools:ignore="ContentDescription" />
-
 
 </androidx.constraintlayout.widget.ConstraintLayout>
