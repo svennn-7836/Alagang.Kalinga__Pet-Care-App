@@ -42,11 +42,7 @@ class SymptomsActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_symptoms)
 
-        val backButton: ImageView = findViewById(R.id.BackBlue1)
-        backButton.setOnClickListener {
-            onBackPressed()
 
-        }
         // Initialize the ImageView elements
         symp1 = findViewById(R.id.symp1)
         sympw1 = findViewById(R.id.sympw1)
