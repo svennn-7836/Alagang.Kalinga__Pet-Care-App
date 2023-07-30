@@ -12,6 +12,7 @@
 ### PROJECT DESCRIPTION:
    Alagang Kalinga is the ultimate app designed to specifically aid proud pet parents or seasoned pet enthusiasts in their pet's 
    needs. To promote the healthy and happy well-being of your pets.
+
    
 ### PROJECT PREVIEW
 #### MAIN ACTIVITY
@@ -32,12 +33,13 @@
 ![Do's and Don'ts](https://github.com/svennn-7836/AlagatKalinga__Pet-Care-App/assets/104261996/7def6967-6ad3-459d-b111-b3d60201a87b)
 ![Do's and Don't 1](https://github.com/svennn-7836/AlagatKalinga__Pet-Care-App/assets/104261996/bd4b0fbb-80cc-4da2-97ea-c96ac8727415)
 
-
 #### SYMPTOMS
 ![Symptoms 1](https://github.com/svennn-7836/AlagatKalinga__Pet-Care-App/assets/104261996/dce27eb5-1838-440a-b6f0-c82d0ffd65ee)
 ![Symptoms 2](https://github.com/svennn-7836/AlagatKalinga__Pet-Care-App/assets/104261996/0dcdf560-b550-4bf2-970a-55d473580d58)
 
 #### ALARM
+![Alarm1](https://github.com/svennn-7836/AlagatKalinga__Pet-Care-App/assets/104261996/f7a5d5c1-5d29-4c9e-9194-fe3f2692302e)
+![Alarm2](https://github.com/svennn-7836/AlagatKalinga__Pet-Care-App/assets/104261996/afcb1439-43fa-46e7-bbf8-f3d1160c7143)
 
 
 ##### GITHUB REPO:
