@@ -20,11 +20,12 @@
 
     <ImageView
         android:id="@+id/RecipeBoxRed"
-        android:layout_width="match_parent"
+        android:layout_width="410dp"
         android:layout_height="375dp"
         android:contentDescription="RecipeBoxR"
         android:src="@drawable/rectangle_8"
-        app:layout_constraintTop_toBottomOf="@id/RecipeText"
+        android:layout_marginTop="90dp"
+        app:layout_constraintTop_toTopOf="@id/RecipeText"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
     <ImageView
