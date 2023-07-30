@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="@color/lightblue"
+    android:background="@color/dblue"
     tools:context=".AlarmActivity">
 
     <TimePicker
@@ -15,7 +15,6 @@
         android:numbersSelectorColor="@color/alarmblue"
         android:numbersInnerTextColor="@color/black"
         android:numbersBackgroundColor="@color/white"
-        android:outlineAmbientShadowColor="@color/alarmblue"
         android:amPmBackgroundColor="@color/alarmblue"
         android:amPmTextColor="@color/black"
         android:outlineSpotShadowColor="@color/black"
