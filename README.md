@@ -29,8 +29,9 @@
 ![Recipe 1](https://github.com/svennn-7836/AlagatKalinga__Pet-Care-App/assets/104261996/7dd55934-11c1-4333-9100-933080abde3b)
 
 #### DO'S AND DON'T
+![Do's and Don'ts](https://github.com/svennn-7836/AlagatKalinga__Pet-Care-App/assets/104261996/7def6967-6ad3-459d-b111-b3d60201a87b)
 ![Do's and Don't 1](https://github.com/svennn-7836/AlagatKalinga__Pet-Care-App/assets/104261996/bd4b0fbb-80cc-4da2-97ea-c96ac8727415)
-![Do's and Don't 2](https://github.com/svennn-7836/AlagatKalinga__Pet-Care-App/assets/104261996/e61319cf-d2c4-4162-9850-3f94ebadcbc6)
+
 
 #### SYMPTOMS
 ![Symptoms 1](https://github.com/svennn-7836/AlagatKalinga__Pet-Care-App/assets/104261996/dce27eb5-1838-440a-b6f0-c82d0ffd65ee)
