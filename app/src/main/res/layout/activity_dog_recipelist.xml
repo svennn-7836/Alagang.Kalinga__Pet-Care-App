@@ -53,24 +53,24 @@
         android:id="@+id/RecipeTitle"
         android:layout_width="402dp"
         android:layout_height="131dp"
-        android:layout_marginBottom="10dp"
+        android:layout_marginBottom="80dp"
         android:contentDescription="RecipeText"
         android:src="@drawable/rectangle_17"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.487"
         app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintTop_toBottomOf="@id/RecipeBoxRed"/>
 
     <TextView
         android:id="@+id/recipeTitleText"
         android:layout_width="364dp"
         android:layout_height="67dp"
-        android:layout_marginTop="32dp"
         android:gravity="center"
         android:textColor="@color/black"
         android:textSize="25dp"
         app:layout_constraintEnd_toEndOf="@+id/RecipeTitle"
-        app:layout_constraintHorizontal_bias="0.473"
+        app:layout_constraintBottom_toBottomOf="@id/RecipeTitle"
         app:layout_constraintStart_toStartOf="@+id/RecipeTitle"
         app:layout_constraintTop_toTopOf="@+id/RecipeTitle" />
 
@@ -83,6 +83,7 @@
         android:gravity="center"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/recipeTitleText"
         app:layout_constraintTop_toBottomOf="@id/RecipeBoxRed" />
 
 
