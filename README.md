@@ -36,6 +36,8 @@
 ![Symptoms 1](https://github.com/svennn-7836/AlagatKalinga__Pet-Care-App/assets/104261996/dce27eb5-1838-440a-b6f0-c82d0ffd65ee)
 ![Symptoms 2](https://github.com/svennn-7836/AlagatKalinga__Pet-Care-App/assets/104261996/0dcdf560-b550-4bf2-970a-55d473580d58)
 
+#### ALARM
+
 
 ##### GITHUB REPO:
    https://github.com/svennn-7836/AlagatKalinga__Pet-Care-App
