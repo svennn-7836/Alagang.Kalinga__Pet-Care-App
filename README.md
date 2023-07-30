@@ -41,7 +41,9 @@
 ![Alarm1](https://github.com/svennn-7836/AlagatKalinga__Pet-Care-App/assets/104261996/f7a5d5c1-5d29-4c9e-9194-fe3f2692302e)
 ![Alarm2](https://github.com/svennn-7836/AlagatKalinga__Pet-Care-App/assets/104261996/afcb1439-43fa-46e7-bbf8-f3d1160c7143)
 
-
+##### USER MANUAL
+   https://drive.google.com/drive/folders/1Ti1YmAxdpGMAdxSTaH0aCuNW76h_cPOJ?usp=sharing
+   
 ##### UI CONCEPTS AND BUTTON
    https://drive.google.com/drive/folders/1Fsa5KX9XpEy27aKtsdMOOliCF_LZn6bN?usp=sharing
 
